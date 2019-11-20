@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>1С - Битрикс. Быстрый старт разработчика - Видеоуроки</title>
+        <meta name="description" content="Продукт «1C-Битрикс: Управление сайтом» представляет собой программное ядро для всестороннего управления веб-проектами любой сложности. Вы научитесь разрабатывать технологически сложные сайты (интернет-магазины) с нуля на базе системы управления контентом CMS 1С-Битрикс. ">
+                <meta property="og:type" content="article">
+        <meta property="og:image" content="/uploads/course_posters_/1s-bitriks-bystryy-start-razrabotchika.jpg">
+        <meta property="og:title" content="1С - Битрикс. Быстрый старт разработчика - Видеоуроки">
+        <meta property="og:description" content="Продукт «1C-Битрикс: Управление сайтом» представляет собой программное ядро для всестороннего управления веб-проектами любой сложности. Вы научитесь разрабатывать технологически сложные сайты (интернет-магазины) с нуля на базе системы управления контентом CMS 1С-Битрикс. ">
+        <meta property="og:url" content="https://coursehunters.net">
+        <meta name="google" content="notranslate"/>
+        <meta name="google-site-verification" content="NLKQu2N9paGGoXAauVtjRfta_WSWmSQuWQIQPCkbsb4"/>
+                        <link rel="apple-touch-icon" sizes="180x180" href="https://coursehunters.net/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://coursehunters.net/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://coursehunters.net/favicon/favicon-16x16.png">
+        <link rel="manifest" href="https://coursehunters.net/favicon/site.webmanifest">
+        <link rel="mask-icon" href="https://coursehunters.net/favicon/safari-pinned-tab.svg" color="#7f00ac">
+        <meta name="msapplication-TileColor" content="#7f00ac">
+        <meta name="theme-color" content="#ffffff">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="PWA CourseHunters">
+        <style>
+@charset "UTF-8";*,:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;text-rendering:optimizeLegibility;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;-moz-font-smoothing:antialiased;-ms-font-smoothing:antialiased;-o-font-smoothing:antialiased}html{font-family:Open Sans,sans-serif;line-height:1.15;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-ms-overflow-style:scrollbar;-webkit-tap-highlight-color:transparent}@-ms-viewport{width:device-width}article,aside,dialog,figcaption,figure,footer,header,hgroup,main,nav,section{display:block}body{margin:0;font-family:Open Sans,sans-serif;font-size:1rem;font-weight:400;line-height:1.5;color:#2f2f2f;text-align:left}body.theme_dark{color:#dad8de;background:#201c2b}[tabindex="-1"]:focus{outline:0!important}hr{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;height:0;overflow:visible}h1,h2,h3,h4,h5,h6{margin-top:0;margin-bottom:.5rem}p{margin-top:0;margin-bottom:1rem}abbr[data-original-title],abbr[title]{text-decoration:underline;-webkit-text-decoration:underline dotted;-moz-text-decoration:underline dotted;text-decoration:underline dotted;cursor:help;border-bottom:0}address{line-height:inherit}address,dl,ol,ul{margin-bottom:1rem}dl,ol,ul{margin-top:0}ol ol,ol ul,ul ol,ul ul{margin-bottom:0}dt{font-weight:700}dd{margin-bottom:.5rem;margin-left:0}blockquote{margin:0 0 1rem}dfn{font-style:italic}b,strong{font-weight:bolder}small{font-size:80%}sub,sup{position:relative;font-size:75%;line-height:0;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}a{color:#7f00ac;text-decoration:underline;background-color:transparent;-webkit-text-decoration-skip:objects}a:hover{color:#5d38db;text-decoration:underline}.theme_dark a{color:#dad8de}.theme_dark a:hover{color:#5d38db}a:not([href]):not([tabindex]),a:not([href]):not([tabindex]):focus,a:not([href]):not([tabindex]):hover{color:inherit;text-decoration:none}a:not([href]):not([tabindex]):focus{outline:0}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}pre{margin-top:0;margin-bottom:1rem;overflow:auto;-ms-overflow-style:scrollbar}body pre{font-size:12px}figure{margin:0 0 1rem}img{vertical-align:middle;border-style:none}svg:not(:root){overflow:hidden}table{border-collapse:collapse}caption{padding-top:.75rem;padding-bottom:.75rem;color:#686868;text-align:left;caption-side:bottom}th{text-align:inherit}label{display:inline-block;margin-bottom:0}button{border-radius:0}button:focus{outline:1px dotted;outline:5px auto -webkit-focus-ring-color}button,input,optgroup,select,textarea{margin:0;font-family:inherit;font-size:inherit;line-height:inherit}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{padding:0;border-style:none}input[type=checkbox],input[type=radio]{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:0}input[type=date],input[type=datetime-local],input[type=month],input[type=time]{-webkit-appearance:listbox}textarea{overflow:auto;resize:vertical}fieldset{min-width:0;padding:0;margin:0;border:0}legend{display:block;width:100%;max-width:100%;padding:0;margin-bottom:.5rem;font-size:1.5rem;line-height:inherit;color:inherit;white-space:normal}progress{vertical-align:baseline}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{outline-offset:-2px;-webkit-appearance:none}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{font:inherit;-webkit-appearance:button}output{display:inline-block}summary{display:list-item;cursor:pointer}template{display:none}[hidden]{display:none!important}.visually-hidden{border:0;clip:rect(0 0 0 0);-webkit-clip-path:inset(50%);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;white-space:nowrap}.no-select{-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{padding:0;margin:0;line-height:1}.h1,h1{font-weight:700;font-size:36px;line-height:normal}.h1,.h2,h1,h2{font-family:Montserrat,sans-serif}.h2,h2{font-weight:600;font-size:24px;line-height:18px}.h3,h3{font-weight:400;font-size:24px}.h3,.h4,h3,h4{font-family:Open Sans,sans-serif;line-height:normal}.h4,h4{font-weight:700;font-size:20px}.h5,h5{font-weight:400;font-size:16px}.h5,.h6,h5,h6{font-family:Open Sans,sans-serif;line-height:normal}.h6,h6{font-weight:600;font-size:14px}.text-p,p{line-height:1.4}.text-common,.text-p,p{font-family:Open Sans,sans-serif;font-weight:400;font-size:14px}.text-common,.text-small{line-height:normal}.text-small{font-family:Open Sans,sans-serif;font-weight:400;font-size:13px}.fw-100,.text-m-100,.text-m-100-i{font-weight:100}.fw-200,.text-m-200,.text-m-200-i{font-weight:200}.fw-300,.text-m-300,.text-m-300-i,.text-os-300,.text-os-300-i{font-weight:300}.fw-400,.text-m-400,.text-m-400-i,.text-os-400,.text-os-400-i{font-weight:400}.fw-500,.text-m-500,.text-m-500-i{font-weight:500}.fw-600,.text-m-600,.text-m-600-i,.text-os-600,.text-os-600-i{font-weight:600}.fw-700,.text-m-700,.text-m-700-i,.text-os-700,.text-os-700-i{font-weight:700}.fw-800,.text-m-800,.text-m-800-i,.text-os-800,.text-os-800-i{font-weight:800}.fw-900,.text-m-900,.text-m-900-i{font-weight:900}.fs-normal{font-style:normal}.fs-italic,.text-m-100-i,.text-m-200-i,.text-m-300-i,.text-m-400-i,.text-m-500-i,.text-m-600-i,.text-m-700-i,.text-m-800-i,.text-m-900-i,.text-os-300-i,.text-os-400-i,.text-os-600-i,.text-os-700-i,.text-os-800-i{font-style:italic}.ff-open-sans,.text-os-300,.text-os-300-i,.text-os-400,.text-os-400-i,.text-os-600,.text-os-600-i,.text-os-700,.text-os-700-i,.text-os-800,.text-os-800-i{font-family:Open Sans,sans-serif}.ff-montserrat,.text-m-100,.text-m-100-i,.text-m-200,.text-m-200-i,.text-m-300,.text-m-300-i,.text-m-400,.text-m-400-i,.text-m-500,.text-m-500-i,.text-m-600,.text-m-600-i,.text-m-700,.text-m-700-i,.text-m-800,.text-m-800-i,.text-m-900,.text-m-900-i{font-family:Montserrat,sans-serif}@font-face{font-family:Montserrat;src:url(../fonts/Montserrat/MontserratThin.eot);src:url(../fonts/Montserrat/MontserratThin.eot) format("embedded-opentype"),url(../fonts/Montserrat/MontserratThin.woff2) format("woff2"),url(../fonts/Montserrat/MontserratThin.woff) format("woff"),url(../fonts/Montserrat/MontserratThin.ttf) format("truetype"),url(../fonts/Montserrat/MontserratThin.svg#MontserratThin) format("svg");font-style:normal;font-weight:100;font-display:swap}@font-face{font-family:Montserrat;src:url(../fonts/Montserrat/MontserratThinItalic.eot);src:url(../fonts/Montserrat/MontserratThinItalic.eot) format("embedded-opentype"),url(../fonts/Montserrat/MontserratThinItalic.woff2) format("woff2"),url(../fonts/Montserrat/MontserratThinItalic.woff) format("woff"),url(../fonts/Montserrat/MontserratThinItalic.ttf) format("truetype"),url(../fonts/Montserrat/MontserratThinItalic.svg#MontserratThinItalic) format("svg");font-style:italic;font-weight:100;font-display:swap}@font-face{font-family:Montserrat;src:url(../fonts/Montserrat/MontserratExtraLight.eot);src:url(../fonts/Montserrat/MontserratExtraLight.eot) format("embedded-opentype"),url(../fonts/Montserrat/MontserratExtraLight.woff2) format("woff2"),url(../fonts/Montserrat/MontserratExtraLight.woff) format("woff"),url(../fonts/Montserrat/MontserratExtraLight.ttf) format("truetype"),url(../fonts/Montserrat/MontserratExtraLight.svg#MontserratExtraLight) format("svg");font-style:normal;font-weight:200;font-display:swap}@font-face{font-family:Montserrat;src:url(../fonts/Montserrat/MontserratExtraLightItalic.eot);src:url(../fonts/Montserrat/MontserratExtraLightItalic.eot) format("embedded-opentype"),url(../fonts/Montserrat/MontserratExtraLightItalic.woff2) format("woff2"),url(../fonts/Montserrat/MontserratExtraLightItalic.woff) format("woff"),url(../fonts/Montserrat/MontserratExtraLightItalic.ttf) format("truetype"),url(../fonts/Montserrat/MontserratExtraLightItalic.svg#MontserratExtraLightItalic) format("svg");font-style:italic;font-weight:200;font-display:swap}@font-face{font-family:Montserrat;src:url(../fonts/Montserrat/MontserratLight.eot);src:url(../fonts/Montserrat/MontserratLight.eot) format("embedded-opentype"),url(../fonts/Montserrat/MontserratLight.woff2) format("woff2"),url(../fonts/Montserrat/MontserratLight.woff) format("woff"),url(../fonts/Montserrat/MontserratLight.ttf) format("truetype"),url(../fonts/Montserrat/MontserratLight.svg#MontserratLight) format("svg");font-style:normal;font-weight:300;font-display:swap}@font-face{font-family:Montserrat;src:url(../fonts/Montserrat/MontserratLightItalic.eot);src:url(../fonts/Montserrat/MontserratLightItalic.eot) format("embedded-opentype"),url(../fonts/Montserrat/MontserratLightItalic.woff2) format("woff2"),url(../fonts/Montserrat/MontserratLightItalic.woff) format("woff"),url(../fonts/Montserrat/MontserratLightItalic.ttf) format("truetype"),url(../fonts/Montserrat/MontserratLightItalic.svg#MontserratLightItalic) format("svg");font-style:italic;font-weight:300;font-display:swap}@font-face{font-family:Montserrat;src:url(../fonts/Montserrat/MontserratRegular.eot);src:url(../fonts/Montserrat/MontserratRegular.eot) format("embedded-opentype"),url(../fonts/Montserrat/MontserratRegular.woff2) format("woff2"),url(../fonts/Montserrat/MontserratRegular.woff) format("woff"),url(../fonts/Montserrat/MontserratRegular.ttf) format("truetype"),url(../fonts/Montserrat/MontserratRegular.svg#MontserratRegular) format("svg");font-style:normal;font-weight:400;font-display:swap}@font-face{font-family:Montserrat;src:url(../fonts/Montserrat/MontserratItalic.eot);src:url(../fonts/Montserrat/MontserratItalic.eot) format("embedded-opentype"),url(../fonts/Montserrat/MontserratItalic.woff2) format("woff2"),url(../fonts/Montserrat/MontserratItalic.woff) format("woff"),url(../fonts/Montserrat/MontserratItalic.ttf) format("truetype"),url(../fonts/Montserrat/MontserratItalic.svg#MontserratItalic) format("svg");font-style:italic;font-weight:400;font-display:swap}@font-face{font-family:Montserrat;src:url(../fonts/Montserrat/MontserratMedium.eot);src:url(../fonts/Montserrat/MontserratMedium.eot) format("embedded-opentype"),url(../fonts/Montserrat/MontserratMedium.woff2) format("woff2"),url(../fonts/Montserrat/MontserratMedium.woff) format("woff"),url(../fonts/Montserrat/MontserratMedium.ttf) format("truetype"),url(../fonts/Montserrat/MontserratMedium.svg#MontserratMedium) format("svg");font-style:normal;font-weight:500;font-display:swap}@font-face{font-family:Montserrat;src:url(../fonts/Montserrat/MontserratMediumItalic.eot);src:url(../fonts/Montserrat/MontserratMediumItalic.eot) format("embedded-opentype"),url(../fonts/Montserrat/MontserratMediumItalic.woff2) format("woff2"),url(../fonts/Montserrat/MontserratMediumItalic.woff) format("woff"),url(../fonts/Montserrat/MontserratMediumItalic.ttf) format("truetype"),url(../fonts/Montserrat/MontserratMediumItalic.svg#MontserratMediumItalic) format("svg");font-style:italic;font-weight:500;font-display:swap}@font-face{font-family:Montserrat;src:url(../fonts/Montserrat/MontserratSemiBold.eot);src:url(../fonts/Montserrat/MontserratSemiBold.eot) format("embedded-opentype"),url(../fonts/Montserrat/MontserratSemiBold.woff2) format("woff2"),url(../fonts/Montserrat/MontserratSemiBold.woff) format("woff"),url(../fonts/Montserrat/MontserratSemiBold.ttf) format("truetype"),url(../fonts/Montserrat/MontserratSemiBold.svg#MontserratSemiBold) format("svg");font-style:normal;font-weight:600;font-display:swap}@font-face{font-family:Montserrat;src:url(../fonts/Montserrat/MontserratSemiBoldItalic.eot);src:url(../fonts/Montserrat/MontserratSemiBoldItalic.eot) format("embedded-opentype"),url(../fonts/Montserrat/MontserratSemiBoldItalic.woff2) format("woff2"),url(../fonts/Montserrat/MontserratSemiBoldItalic.woff) format("woff"),url(../fonts/Montserrat/MontserratSemiBoldItalic.ttf) format("truetype"),url(../fonts/Montserrat/MontserratSemiBoldItalic.svg#MontserratSemiBoldItalic) format("svg");font-style:italic;font-weight:600;font-display:swap}@font-face{font-family:Montserrat;src:url(../fonts/Montserrat/MontserratBold.eot);src:url(../fonts/Montserrat/MontserratBold.eot) format("embedded-opentype"),url(../fonts/Montserrat/MontserratBold.woff2) format("woff2"),url(../fonts/Montserrat/MontserratBold.woff) format("woff"),url(../fonts/Montserrat/MontserratBold.ttf) format("truetype"),url(../fonts/Montserrat/MontserratBold.svg#MontserratBold) format("svg");font-style:normal;font-weight:700;font-display:swap}@font-face{font-family:Montserrat;src:url(../fonts/Montserrat/MontserratBoldItalic.eot);src:url(../fonts/Montserrat/MontserratBoldItalic.eot) format("embedded-opentype"),url(../fonts/Montserrat/MontserratBoldItalic.woff2) format("woff2"),url(../fonts/Montserrat/MontserratBoldItalic.woff) format("woff"),url(../fonts/Montserrat/MontserratBoldItalic.ttf) format("truetype"),url(../fonts/Montserrat/MontserratBoldItalic.svg#MontserratBoldItalic) format("svg");font-style:italic;font-weight:700;font-display:swap}@font-face{font-family:Montserrat;src:url(../fonts/Montserrat/MontserratExtraBold.eot);src:url(../fonts/Montserrat/MontserratExtraBold.eot) format("embedded-opentype"),url(../fonts/Montserrat/MontserratExtraBold.woff2) format("woff2"),url(../fonts/Montserrat/MontserratExtraBold.woff) format("woff"),url(../fonts/Montserrat/MontserratExtraBold.ttf) format("truetype"),url(../fonts/Montserrat/MontserratExtraBold.svg#MontserratExtraBold) format("svg");font-style:normal;font-weight:800;font-display:swap}@font-face{font-family:Montserrat;src:url(../fonts/Montserrat/MontserratExtraBoldItalic.eot);src:url(../fonts/Montserrat/MontserratExtraBoldItalic.eot) format("embedded-opentype"),url(../fonts/Montserrat/MontserratExtraBoldItalic.woff2) format("woff2"),url(../fonts/Montserrat/MontserratExtraBoldItalic.woff) format("woff"),url(../fonts/Montserrat/MontserratExtraBoldItalic.ttf) format("truetype"),url(../fonts/Montserrat/MontserratExtraBoldItalic.svg#MontserratExtraBoldItalic) format("svg");font-style:italic;font-weight:800;font-display:swap}@font-face{font-family:Montserrat;src:url(../fonts/Montserrat/MontserratBlack.eot);src:url(../fonts/Montserrat/MontserratBlack.eot) format("embedded-opentype"),url(../fonts/Montserrat/MontserratBlack.woff2) format("woff2"),url(../fonts/Montserrat/MontserratBlack.woff) format("woff"),url(../fonts/Montserrat/MontserratBlack.ttf) format("truetype"),url(../fonts/Montserrat/MontserratBlack.svg#MontserratBlack) format("svg");font-style:normal;font-weight:900;font-display:swap}@font-face{font-family:Montserrat;src:url(../fonts/Montserrat/MontserratBlackItalic.eot);src:url(../fonts/Montserrat/MontserratBlackItalic.eot) format("embedded-opentype"),url(../fonts/Montserrat/MontserratBlackItalic.woff2) format("woff2"),url(../fonts/Montserrat/MontserratBlackItalic.woff) format("woff"),url(../fonts/Montserrat/MontserratBlackItalic.ttf) format("truetype"),url(../fonts/Montserrat/MontserratBlackItalic.svg#MontserratBlackItalic) format("svg");font-style:italic;font-weight:900;font-display:swap}@font-face{font-family:Open Sans;src:url(../fonts/OpenSans/OpenSansLight.eot);src:url(../fonts/OpenSans/OpenSansLight.eot) format("embedded-opentype"),url(../fonts/OpenSans/OpenSansLight.woff2) format("woff2"),url(../fonts/OpenSans/OpenSansLight.woff) format("woff"),url(../fonts/OpenSans/OpenSansLight.ttf) format("truetype"),url(../fonts/OpenSans/OpenSansLight.svg#OpenSansLight) format("svg");font-style:normal;font-weight:300;font-display:swap}@font-face{font-family:Open Sans;src:url(../fonts/OpenSans/OpenSansLightItalic.eot);src:url(../fonts/OpenSans/OpenSansLightItalic.eot) format("embedded-opentype"),url(../fonts/OpenSans/OpenSansLightItalic.woff2) format("woff2"),url(../fonts/OpenSans/OpenSansLightItalic.woff) format("woff"),url(../fonts/OpenSans/OpenSansLightItalic.ttf) format("truetype"),url(../fonts/OpenSans/OpenSansLightItalic.svg#OpenSansLightItalic) format("svg");font-style:italic;font-weight:300;font-display:swap}@font-face{font-family:Open Sans;src:url(../fonts/OpenSans/OpenSansRegular.eot);src:url(../fonts/OpenSans/OpenSansRegular.eot) format("embedded-opentype"),url(../fonts/OpenSans/OpenSansRegular.woff2) format("woff2"),url(../fonts/OpenSans/OpenSansRegular.woff) format("woff"),url(../fonts/OpenSans/OpenSansRegular.ttf) format("truetype"),url(../fonts/OpenSans/OpenSansRegular.svg#OpenSansRegular) format("svg");font-style:normal;font-weight:400;font-display:swap}@font-face{font-family:Open Sans;src:url(../fonts/OpenSans/OpenSansItalic.eot);src:url(../fonts/OpenSans/OpenSansItalic.eot) format("embedded-opentype"),url(../fonts/OpenSans/OpenSansItalic.woff2) format("woff2"),url(../fonts/OpenSans/OpenSansItalic.woff) format("woff"),url(../fonts/OpenSans/OpenSansItalic.ttf) format("truetype"),url(../fonts/OpenSans/OpenSansItalic.svg#OpenSansItalic) format("svg");font-style:italic;font-weight:400;font-display:swap}@font-face{font-family:Open Sans;src:url(../fonts/OpenSans/OpenSansSemiBold.eot);src:url(../fonts/OpenSans/OpenSansSemiBold.eot) format("embedded-opentype"),url(../fonts/OpenSans/OpenSansSemiBold.woff2) format("woff2"),url(../fonts/OpenSans/OpenSansSemiBold.woff) format("woff"),url(../fonts/OpenSans/OpenSansSemiBold.ttf) format("truetype"),url(../fonts/OpenSans/OpenSansSemiBold.svg#OpenSansSemiBold) format("svg");font-style:normal;font-weight:600;font-display:swap}@font-face{font-family:Open Sans;src:url(../fonts/OpenSans/OpenSansSemiBoldItalic.eot);src:url(../fonts/OpenSans/OpenSansSemiBoldItalic.eot) format("embedded-opentype"),url(../fonts/OpenSans/OpenSansSemiBoldItalic.woff2) format("woff2"),url(../fonts/OpenSans/OpenSansSemiBoldItalic.woff) format("woff"),url(../fonts/OpenSans/OpenSansSemiBoldItalic.ttf) format("truetype"),url(../fonts/OpenSans/OpenSansSemiBoldItalic.svg#OpenSansSemiBoldItalic) format("svg");font-style:italic;font-weight:600;font-display:swap}@font-face{font-family:Open Sans;src:url(../fonts/OpenSans/OpenSansBold.eot);src:url(../fonts/OpenSans/OpenSansBold.eot) format("embedded-opentype"),url(../fonts/OpenSans/OpenSansBold.woff2) format("woff2"),url(../fonts/OpenSans/OpenSansBold.woff) format("woff"),url(../fonts/OpenSans/OpenSansBold.ttf) format("truetype"),url(../fonts/OpenSans/OpenSansBold.svg#OpenSansBold) format("svg");font-style:normal;font-weight:700;font-display:swap}@font-face{font-family:Open Sans;src:url(../fonts/OpenSans/OpenSansBoldItalic.eot);src:url(../fonts/OpenSans/OpenSansBoldItalic.eot) format("embedded-opentype"),url(../fonts/OpenSans/OpenSansBoldItalic.woff2) format("woff2"),url(../fonts/OpenSans/OpenSansBoldItalic.woff) format("woff"),url(../fonts/OpenSans/OpenSansBoldItalic.ttf) format("truetype"),url(../fonts/OpenSans/OpenSansBoldItalic.svg#OpenSansBoldItalic) format("svg");font-style:italic;font-weight:700;font-display:swap}@font-face{font-family:Open Sans;src:url(../fonts/OpenSans/OpenSansExtraBold.eot);src:url(../fonts/OpenSans/OpenSansExtraBold.eot) format("embedded-opentype"),url(../fonts/OpenSans/OpenSansExtraBold.woff2) format("woff2"),url(../fonts/OpenSans/OpenSansExtraBold.woff) format("woff"),url(../fonts/OpenSans/OpenSansExtraBold.ttf) format("truetype"),url(../fonts/OpenSans/OpenSansExtraBold.svg#OpenSansExtraBold) format("svg");font-style:normal;font-weight:800;font-display:swap}@font-face{font-family:Open Sans;src:url(../fonts/OpenSans/OpenSansExtraBoldItalic.eot);src:url(../fonts/OpenSans/OpenSansExtraBoldItalic.eot) format("embedded-opentype"),url(../fonts/OpenSans/OpenSansExtraBoldItalic.woff2) format("woff2"),url(../fonts/OpenSans/OpenSansExtraBoldItalic.woff) format("woff"),url(../fonts/OpenSans/OpenSansExtraBoldItalic.ttf) format("truetype"),url(../fonts/OpenSans/OpenSansExtraBoldItalic.svg#OpenSansExtraBoldItalic) format("svg");font-style:italic;font-weight:800;font-display:swap}@font-face{font-family:ch;src:url(../fonts/icons/ch.ttf?vlzm1c) format("truetype"),url(../fonts/icons/ch.woff?vlzm1c) format("woff"),url(../fonts/icons/ch.svg?vlzm1c#ch) format("svg");font-weight:400;font-style:normal;font-display:swap}[class^=icon-]{font-family:ch!important;speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.icon-dislike:before{content:""}.icon-like:before{content:""}.icon-arrow-down:before{content:""}.icon-arrow:before{content:""}.icon-calendar:before{content:""}.icon-check:before{content:""}.icon-close:before{content:""}.icon-eye-close:before{content:""}.icon-eye:before{content:""}.icon-filter:before{content:""}.icon-heart-full:before{content:""}.icon-heart:before{content:""}.icon-language:before{content:""}.icon-latter:before{content:""}.icon-lesson:before{content:""}.icon-logo:before{content:""}.icon-search:before{content:""}.icon-sort:before{content:""}.icon-source:before{content:""}.icon-star-full:before{content:""}.icon-star:before{content:""}.icon-success:before{content:""}.icon-time:before{content:""}.icon-user:before{content:""}button:disabled:not(.btn){pointer-events:none;cursor:default;background:#969494;color:#fff;border-radius:2px}[class^=btn],[class^=btn]:hover{text-decoration:none;background:transparent}[class^=btn].btn-disabled,[class^=btn]:disabled{pointer-events:none;-webkit-filter:grayscale(100%);filter:grayscale(100%);opacity:.5;cursor:default}.btn{border-radius:2px;background:#7f00ac;font-weight:700;color:#fff;text-align:center;border:none;line-height:1;font-size:14px;padding:13px;min-width:130px;display:inline-block;text-decoration:none}.btn i{margin-right:6px;font-weight:inherit;vertical-align:top}.btn:hover{background:#5d38db;color:#fff;text-decoration:none}.theme_dark .btn,.theme_dark .btn:hover{color:#dad8de}.btn-s{min-width:100px;text-transform:uppercase}.btn-xl{width:200px}.btn-xxl{width:100%;max-width:300px}.btn-group .btn{margin:0 10px}.btn-group,.btn-outline{text-align:center}.btn-outline{border:1px solid #969494;border-radius:2px;color:#686868;font-size:15px;line-height:16px;padding:11px 20px;min-width:130px;display:inline-block;text-decoration:none;background:transparent}.btn-outline i{margin-right:6px;font-weight:inherit;vertical-align:top}.btn-outline:hover{border:1px solid #7f00ac;color:#7f00ac;text-decoration:none}.theme_dark .btn-outline{color:#dad8de}.theme_dark .btn-outline:hover{color:#dad8de;border-color:#7f00ac}.btn-group .btn-outline{margin-bottom:10px}.footer .btn-outline{color:#fff}.btn-link{font-weight:700;font-size:14px;color:#7f00ac;background:transparent;border:none;padding:0 7px;line-height:1}.btn-link:hover{color:#5d38db;background:transparent}.btn-lite{font-weight:400;font-size:14px;color:hsla(0,0%,41%,.7);line-height:1;border:none;padding:0 7px}.btn-lite:hover{color:#2f2f2f;border:none}.form-input[type=checkbox]+.form-label{padding:0 0 0 30px;position:relative}.form-input[type=checkbox]+.form-label:after,.form-input[type=checkbox]+.form-label:before{content:"";position:absolute;top:0;left:0;bottom:0;margin:auto}.form-input[type=checkbox]+.form-label:before{width:20px;height:20px;background:#fff;border:1px solid #686868;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;border-radius:2px}.form-input[type=checkbox]:checked+.form-label:before{border-color:#5d38db}.form-input[type=checkbox]:checked+.form-label:after{font-family:ch;width:13px;height:10px;left:3px;content:"";line-height:1;top:-2px;color:#5d38db;font-size:13px}.form-input[type=checkbox]:focus+.form-label:before{border-color:#7f00ac}.form-input[type=checkbox]:focus+.form-label:after{color:#7f00ac}.form-input[type=radio]+.form-label{padding:0 0 0 30px;position:relative}.form-input[type=radio]+.form-label:after,.form-input[type=radio]+.form-label:before{content:"";position:absolute;top:0;left:0;bottom:0;margin:auto}.form-input[type=radio]+.form-label:before{width:20px;height:20px;background:#fff;border:2px solid #5d38db;border-radius:50%}.form-input[type=radio]:checked+.form-label:before{border-color:#5d38db}.form-input[type=radio]:checked+.form-label:after{width:10px;height:10px;left:5px;background:#5d38db;border-radius:50%}.form-input[type=radio]:focus+.form-label:before{border-color:#7f00ac}.form-input[type=radio]:focus+.form-label:after{background:#7f00ac}.form-label{font-weight:400;font-size:13px;line-height:20px;color:#686868;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.form-select{display:block;width:100%;font-weight:400;font-size:14px;max-width:380px;line-height:normal;color:#7f00ac;background-color:#fff;border:none;border-radius:0;-webkit-appearance:none;-webkit-border-radius:0;padding:10px 30px 10px 0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;border-bottom:1px solid rgba(208,214,230,.85);background-image:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTUiIGhlaWdodD0iMTUiIHZpZXdCb3g9IjAgMCAxNSAxNSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBvcGFjaXR5PSIwLjQ3NTQzIj48bWFzayBpZD0icGF0aC0xLWluc2lkZS0xIiBmaWxsPSJ3aGl0ZSI+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0wLjcwNjk1NSA2LjM2Mzg1TC03LjYyOTRlLTA1IDcuMDcwOTRMNy4wNzAyNCAxNC4xNDJMNy43NzcyNyAxMy40MzQ5TDE0LjE0MDUgNy4wNzA5NEwxMy40MzM1IDYuMzYzODVMNy4wNzAyNCAxMi43Mjc4TDAuNzA2OTU1IDYuMzYzODVaIi8+PC9tYXNrPjxwYXRoIGQ9Ik0tNy42Mjk0ZS0wNSA3LjA3MDk0TC0wLjcwNzIxNCA2LjM2Mzg2TC0xLjQxNDIyIDcuMDcwOTNMLTAuNzA3MjIxIDcuNzc4MDFMLTcuNjI5NGUtMDUgNy4wNzA5NFpNMC43MDY5NTUgNi4zNjM4NUwxLjQxNDEgNS42NTY3OEwwLjcwNjk2MiA0Ljk0OTU2TC0wLjAwMDE4MjI5NSA1LjY1Njc3TDAuNzA2OTU1IDYuMzYzODVaTTcuMDcwMjQgMTQuMTQyTDYuMzYzMDkgMTQuODQ5MUw3LjA3MDI0IDE1LjU1NjNMNy43NzczOSAxNC44NDkxTDcuMDcwMjQgMTQuMTQyWk03Ljc3NzI3IDEzLjQzNDlMNy4wNzAxMiAxMi43Mjc4TDcuMDcwMTEgMTIuNzI3OEw3Ljc3NzI3IDEzLjQzNDlaTTE0LjE0MDUgNy4wNzA5NEwxNC44NDc3IDcuNzc4MDFMMTUuNTU0NyA3LjA3MDkzTDE0Ljg0NzcgNi4zNjM4NkwxNC4xNDA1IDcuMDcwOTRaTTEzLjQzMzUgNi4zNjM4NUwxNC4xNDA3IDUuNjU2NzdMMTMuNDMzNSA0Ljk0OTU2TDEyLjcyNjQgNS42NTY3OEwxMy40MzM1IDYuMzYzODVaTTcuMDcwMjQgMTIuNzI3OEw2LjM2MzA5IDEzLjQzNDlMNy4wNzAyNCAxNC4xNDIxTDcuNzc3MzggMTMuNDM0OUw3LjA3MDI0IDEyLjcyNzhaTTAuNzA3MDYxIDcuNzc4MDFMMS40MTQwOSA3LjA3MDkyTC0wLjAwMDE4MjI5NSA1LjY1Njc3TC0wLjcwNzIxNCA2LjM2Mzg2TDAuNzA3MDYxIDcuNzc4MDFaTTcuNzc3MzggMTMuNDM0OUwwLjcwNzA2OSA2LjM2Mzg3TC0wLjcwNzIyMSA3Ljc3ODAxTDYuMzYzMDkgMTQuODQ5MUw3Ljc3NzM4IDEzLjQzNDlaTTcuMDcwMTEgMTIuNzI3OEw2LjM2MzA4IDEzLjQzNUw3Ljc3NzM5IDE0Ljg0OTFMOC40ODQ0MiAxNC4xNDJMNy4wNzAxMSAxMi43Mjc4Wk0xMy40MzM0IDYuMzYzODdMNy4wNzAxMiAxMi43Mjc4TDguNDg0NDEgMTQuMTQyTDE0Ljg0NzcgNy43NzgwMUwxMy40MzM0IDYuMzYzODdaTTEyLjcyNjQgNy4wNzA5MkwxMy40MzM0IDcuNzc4MDFMMTQuODQ3NyA2LjM2Mzg2TDE0LjE0MDcgNS42NTY3N0wxMi43MjY0IDcuMDcwOTJaTTcuNzc3MzggMTMuNDM0OUwxNC4xNDA3IDcuMDcwOTJMMTIuNzI2NCA1LjY1Njc4TDYuMzYzMDkgMTIuMDIwN0w3Ljc3NzM4IDEzLjQzNDlaTS0wLjAwMDE4OTExMyA3LjA3MDkyTDYuMzYzMDkgMTMuNDM0OUw3Ljc3NzM4IDEyLjAyMDdMMS40MTQxIDUuNjU2NzhMLTAuMDAwMTg5MTEzIDcuMDcwOTJaIiBmaWxsPSJibGFjayIgbWFzaz0idXJsKCNwYXRoLTEtaW5zaWRlLTEpIi8+PC9nPjwvc3ZnPg==);background-repeat:no-repeat;background-position-y:center;background-position-x:calc(100% - 8px)}.form-select:focus{outline:none;border-bottom:1px solid #7f00ac}.material-group{position:relative;padding:20px 0 0;margin-bottom:10px}.material-textarea{resize:none}.material-input,.material-textarea{background:none;color:#7f00ac;font-size:14px;font-weight:700;padding:9px 10px 7px 0;display:block;max-width:380px;width:100%;border:none;border-radius:0;border-bottom:1px solid #d8d8d8;background:#fff}.material-input:focus,.material-textarea:focus{outline:none}.material-input:focus~.material-label,.material-input:valid~.material-label,.material-textarea:focus~.material-label,.material-textarea:valid~.material-label{top:7px;color:#969494;font-weight:300;font-size:13px}.material-input:focus~.material-bar:before,.material-textarea:focus~.material-bar:before{width:100%}.theme_dark .material-input,.theme_dark .material-textarea{color:#dad8de;background-color:#201c2b}.material-input[type=password]{letter-spacing:.3em}.material-label{color:#969494;font-weight:400;position:absolute;pointer-events:none;left:0;-webkit-transition:all .3s ease;transition:all .3s ease;font-size:14px;line-height:normal;top:30px;margin:auto;height:20px}.material-bar{position:relative;display:block;max-width:380px}.material-bar:before{content:"";height:2px;width:0;bottom:0;position:absolute;background:#7f00ac;-webkit-transition:all .3s ease;transition:all .3s ease;left:0}.chip-text{font-size:14px;line-height:1.2;color:#686868;vertical-align:middle}.theme_dark .chip-text{color:#dad8de}.chip-close{font-size:10px;line-height:10px;color:#969494;padding:0 0 0 7px;-webkit-transform:translate(2px,1px);transform:translate(2px,1px);display:inline-block;vertical-align:middle}.theme_dark .chip-close{color:#dad8de}.chip-item{cursor:pointer;background:#fff;-webkit-box-shadow:0 5px 16px hsla(0,0%,96%,.8);box-shadow:0 5px 16px hsla(0,0%,96%,.8);border-radius:4px;overflow:hidden;border:none;padding:6px 10px;display:inline-block;font-size:0;line-height:0;vertical-align:middle;margin:0 8px 8px 0;text-decoration:none}.theme_dark .chip-item{color:#dad8de;background:#392e5c;-webkit-box-shadow:none;box-shadow:none}.chip-item-active,.chip-item:active,.chip-item:focus,.chip-item:hover{outline:none;background-color:#7f00ac;text-decoration:none;color:#fff}.theme_dark .chip-item-active,.theme_dark .chip-item:active,.theme_dark .chip-item:focus,.theme_dark .chip-item:hover{background-color:#7f00ac;color:inherit}.chip-item-active .chip-close,.chip-item-active .chip-text,.chip-item:active .chip-close,.chip-item:active .chip-text,.chip-item:focus .chip-close,.chip-item:focus .chip-text,.chip-item:hover .chip-close,.chip-item:hover .chip-text{color:inherit}.search,.search-input{position:relative}.search-input{background-color:#fff;-webkit-box-shadow:-10px 9px 21px rgba(128,152,213,.075);box-shadow:-10px 9px 21px rgba(128,152,213,.075);padding:16px 16px 16px 60px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;outline:none;border:none;width:100%;background-image:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjMiIGhlaWdodD0iMjMiIHZpZXdCb3g9IjAgMCAyMyAyMyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE5QzE0Ljk3MDYgMTkgMTkgMTQuOTcwNiAxOSAxMEMxOSA1LjAyOTQ0IDE0Ljk3MDYgMSAxMCAxQzUuMDI5NDQgMSAxIDUuMDI5NDQgMSAxMEMxIDE0Ljk3MDYgNS4wMjk0NCAxOSAxMCAxOVoiIHN0cm9rZT0iIzk3OTc5NyIvPjxwYXRoIGQ9Ik0xNi41IDE2LjVMMjEuOTAyNyAyMS45MjIiIHN0cm9rZT0iIzk3OTc5NyIgc3Ryb2tlLWxpbmVjYXA9InNxdWFyZSIvPjwvc3ZnPg==);background-repeat:no-repeat;color:#000;font-size:16px;line-height:24px;font-weight:400;background-position-y:center;background-position-x:21px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;z-index:10}.theme_dark .search-input{color:#dad8de;background-color:#392e5c;-webkit-box-shadow:none;box-shadow:none}.search-input::-webkit-input-placeholder{color:#9d9d9d}.search-input::-moz-placeholder{color:#9d9d9d}.search-input::-ms-input-placeholder{color:#9d9d9d}.search-input::placeholder{color:#9d9d9d}.search-input:active,.search-input:focus{-webkit-box-shadow:-10px 9px 21px rgba(128,152,213,.075);box-shadow:-10px 9px 21px rgba(128,152,213,.075);background-image:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE5QzE0Ljk3MDYgMTkgMTkgMTQuOTcwNiAxOSAxMEMxOSA1LjAyOTQ0IDE0Ljk3MDYgMSAxMCAxQzUuMDI5NDQgMSAxIDUuMDI5NDQgMSAxMEMxIDE0Ljk3MDYgNS4wMjk0NCAxOSAxMCAxOVoiIHN0cm9rZT0iIzdGMDBBQyIgc3Ryb2tlLXdpZHRoPSIyIi8+PHBhdGggZD0iTTE2LjUgMTYuNUwyMS45MDI3IDIxLjkyMiIgc3Ryb2tlPSIjN0YwMEFDIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJzcXVhcmUiLz48L3N2Zz4=)}.search-input:active~.search-result:not(:empty),.search-input:focus~.search-result:not(:empty){visibility:visible;max-height:200px;padding:20px 0}.search-result{-webkit-box-shadow:-10px 9px 21px rgba(128,152,213,.075);box-shadow:-10px 9px 21px rgba(128,152,213,.075);visibility:hidden;background:#fff;overflow:hidden;max-height:0;-webkit-transition:all .6s;transition:all .6s;position:absolute;z-index:2;left:0;top:100%;width:100%}.search-active .search-result:not(:empty){visibility:visible;max-height:200px;padding:20px 0}.search-result-item{display:block;text-decoration:none;font-weight:400;font-size:15px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;line-height:1.4;padding:10px 10px 10px 48px;color:#757575}.search-result-item:focus,.search-result-item:hover{background:#f5f5f5;color:#7f00ac;text-decoration:none;outline:none}.switch{margin:0;width:70px;height:26px;font-size:11px;font-weight:700;position:relative;display:inline-block}.switch__input{width:0;height:0;opacity:0}.switch__input:checked+.switch__slider{background-color:#5d38db}.switch__input:checked+.switch__slider:before{-webkit-transform:translateX(44px);transform:translateX(44px)}.switch__input:checked+.switch__slider:after{content:"On";left:16px}.switch__input:focus+.switch__slider{background-color:#7f00ac}.switch__slider{cursor:pointer;top:0;left:0;right:0;bottom:0;background-color:#5d38db;border-radius:24px}.switch__slider,.switch__slider:before{position:absolute;-webkit-transition:.4s;transition:.4s}.switch__slider:before{content:"";height:24px;width:24px;left:1px;bottom:1px;background-color:#fff;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-moz-box-align:center;-ms-flex-align:center;align-items:center;border-radius:50%}.switch__slider:after{content:"Off";-webkit-transition:.4s;transition:.4s;font-weight:400;line-height:1;font-size:14px;height:14px;color:#fff;top:0;bottom:0;position:absolute;margin:auto;left:31px}.pagination{width:100%;height:auto;display:block;text-align:center}.pagination__ul{margin:0;font-size:0}.pagination__li{margin:0;padding:0;font-size:14px;line-height:1;list-style-type:none;display:inline-block;vertical-align:middle}.pagination__li:before{content:none}.pagination__a{color:#000;display:inline-block;padding:11px;text-decoration:none;font-size:14px;line-height:1;font-weight:400;min-width:36px;min-height:36px}.theme_dark .pagination__a{color:#dad8de}.pagination__a:focus,.pagination__a:hover,.pagination__a_active{text-decoration:none}.pagination__a:focus{outline:none}.pagination__a:focus:not(.pagination__a_active),.pagination__a:hover:not(.pagination__a_active){background-color:hsla(0,0%,87%,.5);color:#000}.theme_dark .pagination__a:focus:not(.pagination__a_active),.theme_dark .pagination__a:hover:not(.pagination__a_active){color:#dad8de;background-color:#392e5c}.pagination__a_active{font-weight:700;color:#fff;background:#7f00ac;cursor:default;pointer-events:none}.pagination__a:focus.pagination__a_active,.pagination__a:hover.pagination__a_active{color:#fff}.pagination__a[rel]{font-size:0;position:relative}.pagination__a[rel]:before{content:"";width:10px;height:20px;position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;background:url("data:image/svg+xml;charset=utf8,%3Csvg width='12' height='21' viewBox='0 0 12 21' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M1.3125 0.25C1.22135 0.25 1.13672 0.266276 1.05859 0.298828C0.980469 0.33138 0.908854 0.380208 0.84375 0.445312C0.713541 0.575521 0.648438 0.735025 0.648438 0.923828C0.648438 1.11263 0.713541 1.27213 0.84375 1.40234L9.75 10.3086L0.960938 19.0977C0.830729 19.2279 0.765625 19.3841 0.765625 19.5664C0.765625 19.7487 0.830729 19.9049 0.960938 20.0352C1.09115 20.1654 1.25065 20.2305 1.43945 20.2305C1.62826 20.2305 1.78776 20.1654 1.91797 20.0352L11.1758 10.7773C11.306 10.6471 11.3711 10.4909 11.3711 10.3086C11.3711 10.1263 11.306 9.97005 11.1758 9.83984L1.78125 0.445312C1.71615 0.380208 1.64128 0.33138 1.55664 0.298828C1.472 0.266276 1.39062 0.25 1.3125 0.25Z' fill='%234D4D4D'/%3E%3C/svg%3E") 50% no-repeat}.pagination__a[rel=prev]{-webkit-transform:rotate(180deg);transform:rotate(180deg)}.pagination__a[rel=next]{position:relative}.main-header{background:#fff;-webkit-box-shadow:0 3px 21px hsla(0,0%,46%,.08);box-shadow:0 3px 21px hsla(0,0%,46%,.08);padding:10px 0}.theme_dark .main-header{background:#201c2b}.main-header-container{-webkit-box-pack:justify;-moz-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.main-header-container,.main-header-side{display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-moz-box-align:center;-ms-flex-align:center;align-items:center}.main-header-side{font-size:0}.main-header-logo{font-size:40px;line-height:0;text-align:center;height:40px;overflow:hidden;margin-right:20px}.main-header-logo,.main-header-logo:hover{text-decoration:none;color:#000}.theme_dark .main-header-logo,.theme_dark .main-header-logo:hover{color:#dad8de}.main-header-link{font-weight:600;font-size:14px;line-height:normal;color:#2f2f2f;text-transform:uppercase;white-space:nowrap}.main-header-link,.main-header-link:hover{text-decoration:none}.theme_dark .main-header-link{color:#dad8de}.theme_dark .main-header-link:hover{color:#dad8de;text-decoration:underline}.main-header-donate{display:none}@media screen and (min-width:576px){.main-header-donate{display:block;margin-right:20px}}.main-search{position:relative}.main-header .main-search{margin-right:10px;margin-left:10px}.main-search-input{padding:16px 5px 16px 60px;width:60px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;outline:none;border:none;background-image:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjMiIGhlaWdodD0iMjMiIHZpZXdCb3g9IjAgMCAyMyAyMyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE5QzE0Ljk3MDYgMTkgMTkgMTQuOTcwNiAxOSAxMEMxOSA1LjAyOTQ0IDE0Ljk3MDYgMSAxMCAxQzUuMDI5NDQgMSAxIDUuMDI5NDQgMSAxMEMxIDE0Ljk3MDYgNS4wMjk0NCAxOSAxMCAxOVoiIHN0cm9rZT0iIzk3OTc5NyIvPjxwYXRoIGQ9Ik0xNi41IDE2LjVMMjEuOTAyNyAyMS45MjIiIHN0cm9rZT0iIzk3OTc5NyIgc3Ryb2tlLWxpbmVjYXA9InNxdWFyZSIvPjwvc3ZnPg==);background-repeat:no-repeat;color:#000;font-size:16px;line-height:24px;font-weight:400;background-position-y:center;background-position-x:21px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;position:relative;z-index:10;-webkit-transition:.3s;transition:.3s}.theme_dark .main-search-input{color:#dad8de;background-color:#201c2b}.main-search-input::-webkit-input-placeholder{color:#9d9d9d}.main-search-input::-moz-placeholder{color:#9d9d9d}.main-search-input::-ms-input-placeholder{color:#9d9d9d}.main-search-input::placeholder{color:#9d9d9d}.main-search-input:active,.main-search-input:focus{background-image:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEwIDE5QzE0Ljk3MDYgMTkgMTkgMTQuOTcwNiAxOSAxMEMxOSA1LjAyOTQ0IDE0Ljk3MDYgMSAxMCAxQzUuMDI5NDQgMSAxIDUuMDI5NDQgMSAxMEMxIDE0Ljk3MDYgNS4wMjk0NCAxOSAxMCAxOVoiIHN0cm9rZT0iIzdGMDBBQyIgc3Ryb2tlLXdpZHRoPSIyIi8+PHBhdGggZD0iTTE2LjUgMTYuNUwyMS45MDI3IDIxLjkyMiIgc3Ryb2tlPSIjN0YwMEFDIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJzcXVhcmUiLz48L3N2Zz4=);padding:16px 16px 16px 60px;max-width:320px;width:100%;-webkit-box-shadow:-10px 9px 21px rgba(128,152,213,.075);box-shadow:-10px 9px 21px rgba(128,152,213,.075);outline:1px solid #7f1cac}@media screen and (min-width:768px){.main-search-input:active,.main-search-input:focus{width:320px}}.hero{position:relative;padding:110px 0;margin:0 auto}.theme_dark .hero{background:#392e5c}.theme_dark .hero-home{background:transparent}.hero-s{padding:110px 0 60px}.hero-gradient{background:linear-gradient(132.55deg,#7f00ac 30%,#5d38db);padding-bottom:150px}.theme_dark .hero-gradient{background:#392e5c}.hero-title{text-align:center;margin-bottom:10px}.hero-gradient .hero-title{color:#fff;text-align:left;margin-bottom:30px}.theme_dark .hero-gradient .hero-title{color:#dad8de}.hero-description{max-width:782px;font-size:24px;text-align:center;color:#969494;margin:0 auto 40px}.theme_dark .hero-description{color:#dad8de}.hero-gradient .hero-description{margin:0;color:#fff;text-align:left;max-width:none}.theme_dark .hero-gradient .hero-description{color:#dad8de}.hero-search{max-width:640px;margin:0 auto}.hero-source{display:none}@media screen and (min-width:768px){.hero-gradient .hero-title{padding-right:200px}.hero-source{display:block;font-weight:600;font-size:18px;line-height:25px;text-transform:uppercase;color:hsla(0,0%,100%,.7);position:absolute;right:0;top:11px;bottom:0;margin:auto}.theme_dark .hero-source{color:#dad8de}}.auth{width:100%;margin:0 auto;max-width:380px;padding-bottom:20px}.auth-title{text-align:center;margin-bottom:50px}.auth-title-mb{margin-bottom:5px}.auth-group{display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:flex;padding:6px 0;margin-bottom:55px;-webkit-box-align:center;-moz-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-moz-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.auth-text{font-weight:400;font-size:16px;line-height:normal;text-align:center;color:#969494;max-width:550px;margin:0 auto 30px}.auth-group-center{padding:6px 0;margin-bottom:55px;text-align:center}.auth-a{font-size:12px;color:#757575;line-height:normal;font-weight:400}.auth-group-center .auth-a{margin-left:5px}.auth-box{font-size:0;padding-top:40px;height:calc(100vh - 76px);min-height:500px}.auth-btn{text-align:center;padding-top:40px}.auth-success{font-size:75px;color:#7f00ac;line-height:1;margin-bottom:20px;text-align:center}@media screen and (min-width:576px){.auth-box{padding-top:15vh}}.breadcrumbs{font-size:0;position:relative;text-overflow:ellipsis}.hero .breadcrumbs{position:absolute;top:25px}.breadcrumbs_second .breadcrumbs__span:not(:last-child):after{content:"|"}.breadcrumbs__span{font-size:16px;position:relative;display:inline-block;vertical-align:middle;text-decoration:none;line-height:1.2;padding:5px 0}.breadcrumbs__span:not(:last-child):after{content:"\e901";font-family:ch;color:#7f00ac;padding:0 10px;vertical-align:middle}.hero-gradient .breadcrumbs__span:not(:last-child):after{color:#fff}.breadcrumbs__a{display:inline-block;vertical-align:middle;color:#7f00ac;font-weight:400;letter-spacing:0;font-size:16px;text-decoration:none;line-height:1.2;padding:5px 0}.theme_dark .breadcrumbs__a_active{color:#dad8de;cursor:default}.hero-gradient .breadcrumbs__a{color:#fff}.theme_dark .hero-gradient .breadcrumbs__a{color:#dad8de}.footer{background:#2f2f2f;padding:60px 0;color:#fff}.theme_dark .footer{background:#392e5c;color:#dad8de}.footer-row{font-size:0}.footer-side{width:100%;display:inline-block;vertical-align:bottom}.footer-side-top{vertical-align:top}.footer-side-top:nth-child(2){display:none}@media screen and (min-width:640px){.footer-side{width:50%}}@media screen and (min-width:1024px){.footer-side-top{width:33.33%}.footer-side-top:first-child{width:28%}.footer-side-top:nth-child(2){width:38.66%;display:inline-block;padding-right:20px}}.footer-copy{width:230px}.footer-copy-logo{margin-bottom:14px}.footer-copy-logo path{fill:#fff}.theme_dark .footer-copy-logo path{color:#dad8de}.footer-copy-text{font-weight:400;font-size:16px;line-height:normal;color:#fff}.theme_dark .footer-copy-text{color:#dad8de}.footer-sd{max-width:340px}.footer-sd-title{font-weight:600;font-size:14px;text-transform:uppercase;margin-bottom:13px}.footer-sd-description{font-size:14px;margin-bottom:20px;line-height:normal;padding-right:10px}.footer-sd-email{background-color:#fff;-webkit-box-shadow:-10px 9px 21px rgba(128,152,213,.075);box-shadow:-10px 9px 21px rgba(128,152,213,.075);font-weight:400;font-size:16px;line-height:24px;width:100%;padding:14px 14px 14px 58px;background-image:url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjkiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyOSAyMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMjIuNzc4MyAxNS40NDY4QzIyLjY2NjggMTUuNDQ2OCAyMi41NTUyIDE1LjQwNiAyMi40NjgxIDE1LjMyMzVMMTcuMjQ4MyAxMC40MjY3QzE3LjA2NiAxMC4yNTYxIDE3LjA1NjkgOS45Njg1NSAxNy4yMjg0IDkuNzg2MjFDMTcuMzk5OCA5LjYwMjA2IDE3LjY4NTYgOS41OTM5IDE3Ljg2OTcgOS43NjYyNUwyMy4wODk1IDE0LjY2MzFDMjMuMjcxOCAxNC44MzM2IDIzLjI4MDkgMTUuMTIxMiAyMy4xMDk1IDE1LjMwMzVDMjMuMDE5NyAxNS4zOTg4IDIyLjg5OTkgMTUuNDQ2OCAyMi43NzgzIDE1LjQ0NjhaIiBmaWxsPSIjOTc5Nzk3Ii8+PHBhdGggZD0iTTUuMzU0NDIgMTUuNDQ3QzUuMjMzNzcgMTUuNDQ3IDUuMTEzMTEgMTUuMzk5IDUuMDIzMzEgMTUuMzAzN0M0Ljg1MTg1IDE1LjEyMTQgNC44NjA5MyAxNC44MzM4IDUuMDQzMjYgMTQuNjYzM0wxMC4yNjQ4IDkuNzY2NDRDMTAuNDQ4MSA5LjU5NTkgMTAuNzM1NiA5LjYwMzE2IDEwLjkwNjIgOS43ODY0QzExLjA3NzYgOS45Njg3NCAxMS4wNjg2IDEwLjI1NjMgMTAuODg2MiAxMC40MjY5TDUuNjY0NjYgMTUuMzIzN0M1LjU3NzU4IDE1LjQwNjIgNS40NjYgMTUuNDQ3IDUuMzU0NDIgMTUuNDQ3WiIgZmlsbD0iIzk3OTc5NyIvPjxwYXRoIGQ9Ik0yNS44NjQ3IDIwSDIuMjY3ODhDMS4wMTc4MyAyMCAwIDE4Ljk4MzEgMCAxNy43MzIxVjIuMjY3ODhDMCAxLjAxNjkyIDEuMDE3ODMgMCAyLjI2Nzg4IDBIMjUuODY0N0MyNy4xMTQ4IDAgMjguMTMyNiAxLjAxNjkyIDI4LjEzMjYgMi4yNjc4OFYxNy43MzIxQzI4LjEzMjYgMTguOTgzMSAyNy4xMTQ4IDIwIDI1Ljg2NDcgMjBaTTIuMjY3ODggMC45MDcxNTNDMS41MTc2NyAwLjkwNzE1MyAwLjkwNzE1MyAxLjUxNzY3IDAuOTA3MTUzIDIuMjY3ODhWMTcuNzMyMUMwLjkwNzE1MyAxOC40ODIzIDEuNTE3NjcgMTkuMDkyOCAyLjI2Nzg4IDE5LjA5MjhIMjUuODY0N0MyNi42MTUgMTkuMDkyOCAyNy4yMjU1IDE4LjQ4MjMgMjcuMjI1NSAxNy43MzIxVjIuMjY3ODhDMjcuMjI1NSAxLjUxNzY3IDI2LjYxNSAwLjkwNzE1MyAyNS44NjQ3IDAuOTA3MTUzSDIuMjY3ODhaIiBmaWxsPSIjOTc5Nzk3Ii8+PHBhdGggZD0iTTE0LjA2NjcgMTIuMjc5M0MxMy40NjM0IDEyLjI3OTMgMTIuODYwMiAxMi4wNzg4IDEyLjQwMTIgMTEuNjc4OEwwLjc1MzMxMyAxLjUxNzc2QzAuNTY0NjI1IDEuMzUzNTYgMC41NDQ2NjggMS4wNjY5IDAuNzA4ODYzIDAuODc3MzA4QzAuODc0ODcyIDAuNjg4NjIxIDEuMTYwNjIgMC42NzEzODUgMS4zNDkzMSAwLjgzMzc2NUwxMi45OTcyIDEwLjk5MzlDMTMuNTc2OCAxMS40OTkyIDE0LjU1NjYgMTEuNDk5MiAxNS4xMzUzIDEwLjk5MzlMMjYuNzY4NiAwLjg1MDA5NEMyNi45NTY0IDAuNjg1ODk5IDI3LjI0MjIgMC43MDQwNDIgMjcuNDA5MSAwLjg5MzYzN0MyNy41NzMzIDEuMDgzMjMgMjcuNTU0MiAxLjM2ODk5IDI3LjM2NTYgMS41MzQwOUwxNS43MzIyIDExLjY3NzlDMTUuMjcyMyAxMi4wNzg4IDE0LjY2OTkgMTIuMjc5MyAxNC4wNjY3IDEyLjI3OTNaIiBmaWxsPSIjOTc5Nzk3Ii8+PC9zdmc+);background-position:15px;background-repeat:no-repeat;border:none}.theme_dark .footer-sd-email{background-color:#201c2b;color:#dad8de}.footer-sd-email::-webkit-input-placeholder{color:#757575}.footer-sd-email::-moz-placeholder{color:#757575}.footer-sd-email::-ms-input-placeholder{color:#757575}.footer-sd-email::placeholder{color:#757575}.footer-sd-form{display:block;width:100%;margin-bottom:10px}.footer-sd-btn{cursor:pointer}@media screen and (min-width:640px){.footer-sd{margin-left:auto;width:100%}}.footer-menu{display:none;font-size:0}.footer-menu-side{margin-bottom:20px;-webkit-box-flex:33.33%;-moz-box-flex:33.33%;-ms-flex:33.33%;flex:33.33%;padding-right:10px}.footer-menu-title{font-weight:600;font-size:14px;line-height:normal;text-transform:uppercase;color:#fff;margin-bottom:14px}.theme_dark .footer-menu-title{color:#dad8de}.footer-menu-item{font-weight:400;font-size:14px;line-height:20px;color:#fff;display:block;text-decoration:none;padding-bottom:7px}.footer-menu-item:hover{color:#fff}.theme_dark .footer-menu-item,.theme_dark .footer-menu-item:hover{color:#dad8de}.footer-menu-item-semi-blod{font-weight:600}@media screen and (min-width:1024px){.footer-menu{display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-moz-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}}.menu{margin-bottom:30px}.menu-item{font-weight:400;font-size:14px;line-height:30px;color:#fff;margin-right:30px;text-decoration:none;border:none}.menu-item-dark,.menu-item-light{cursor:pointer}.menu-item[href]:hover{color:#fff}.menu-item[href]:hover:hover{text-decoration:underline}@media screen and (min-width:640px){.menu{margin-bottom:0}}.section-block{background:linear-gradient(132.55deg,#7f00ac 30%,#5d38db);padding:60px 0 40px;text-align:center;color:#fff}.theme_dark .section-block{background:#392e5c;color:#dad8de}.section-block-title{font-family:Montserrat,sans-serif;font-weight:600;font-size:24px;line-height:18px;color:inherit;margin-bottom:20px}.section-block-description{font-weight:400;font-size:16px;line-height:normal;color:inherit;max-width:878px;margin:0 auto 40px}.section-block-btn,.section-block-btn:hover{color:inherit;text-decoration:none;border-color:currentColor}.standard{padding:20px 0}.standard-title{font-family:Montserrat,sans-serif;font-weight:600;font-size:24px;line-height:1.4;text-align:center;margin-bottom:40px;color:#2f2f2f}.theme_dark .standard-title{color:#dad8de}.standard-btn{display:block;margin:0 auto 20px}@media screen and (min-width:860px){.standard{padding:20px}}.popular-categories{font-size:0;padding:10px 0 20px;margin:0 -10px;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-align:start;-ms-flex-align:start;-moz-box-align:start;align-items:flex-start;-webkit-box-pack:center;-ms-flex-pack:center;-moz-box-pack:center;justify-content:center}.popular-categories,.popular-categories-item{display:-webkit-box;display:-ms-flexbox;display:-moz-box;display:flex}.popular-categories-item{background:#fff;padding:15px 17px;font-weight:400;font-size:16px;line-height:normal;color:#686868;text-decoration:none;min-width:212px;min-height:60px;-webkit-box-pack:start;-moz-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;-webkit-box-align:center;-moz-box-align:center;-ms-flex-align:center;align-items:center;vertical-align:top;margin:10px;width:212px;height:60px;overflow:hidden}.theme_dark .popular-categories-item{background:#201c2b;color:#dad8de}.popular-categories-item:hover{text-decoration:none}.popular-categories-icon{max-width:36px;max-height:36px;-o-object-fit:cover;object-fit:cover;margin-right:17px}.popular-categories-name{white-space:nowrap;text-overflow:ellipsis;overflow:hidden;width:120px}.categories{padding:40px}.categories-list{margin:0 -10px;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-align:start;-moz-box-align:start;-ms-flex-align:start;align-items:flex-start;-webkit-box-pack:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center;font-size:0}.categories-item{overflow:hidden;text-align:center;width:212px;height:150px;-webkit-box-shadow:0 4px 14px hsla(0,1%,58%,.25);box-shadow:0 4px 14px hsla(0,1%,58%,.25);padding:20px;display:inline-block;vertical-align:top;margin:10px;text-decoration:none}.theme_dark .categories-item:not(.categories-item-parent){background:#392e5c}.categories-item-parent{background:linear-gradient(132.55deg,#7f00ac 30%,#5d38db)}.theme_dark .categories-item{-webkit-box-shadow:none;box-shadow:none}.categories-logo{margin:0;padding:0;font-size:0}.categories-logo-img{width:80px;height:80px;-o-object-fit:cover;object-fit:cover;margin-bottom:10px}.categories-title{font-weight:400;font-size:16px;line-height:normal;text-align:center;color:#686868;word-wrap:break-word;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}.categories-item-parent .categories-title{color:#fff}.theme_dark .categories-item:hover .categories-title,.theme_dark .categories-title,.theme_dark .categories-title:hover{color:#dad8de}.sources-container{max-width:1180px;margin:0 auto;padding:0 10px}.sources-list{margin:0 -10px;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-align:start;-moz-box-align:start;-ms-flex-align:start;align-items:flex-start;-webkit-box-pack:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center;margin-bottom:30px}.sources-item{position:relative;overflow:hidden;text-align:center;display:inline-block;vertical-align:top;height:200px;margin:10px;width:270px}.sources-item-box{top:0;left:0;position:absolute;width:100%;height:100%;margin:0 auto;background:rgba(47,47,47,.8);display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-moz-box-orient:vertical;-moz-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-moz-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center}.sources-item-title{font-family:Montserrat,sans-serif;font-weight:600;font-size:24px;line-height:1.2;text-align:center;color:#fff;margin-bottom:10px}.sources-item-description{font-weight:400;font-size:16px;line-height:normal;text-align:center;color:#fff}.sources-item-picture{display:inline-block;width:100%;height:100%;margin:0}.sources-item-img{width:100%;height:100%;-o-object-fit:cover;object-fit:cover;line-height:0;-webkit-transition:-webkit-transform .5s;transition:-webkit-transform .5s;transition:transform .5s;transition:transform .5s,-webkit-transform .5s;will-change:transform}.sources-item:hover .sources-item-img{-webkit-transform:scale(1.1);transform:scale(1.1)}.plans{padding-top:60px;padding-bottom:40px}.plans-list{margin:0 -10px;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-align:stretch;-moz-box-align:stretch;-ms-flex-align:stretch;align-items:stretch;padding:30px 0;-webkit-box-pack:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center}.plans-item,.plans-list{display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:flex}.plans-item{margin:10px;text-align:center;background-color:#fff;padding:20px;width:270px;min-height:330px;-webkit-box-orient:vertical;-webkit-box-direction:normal;-moz-box-orient:vertical;-moz-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:justify;-moz-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.theme_dark .plans-item{color:#dad8de;background:#201c2b}.plans-item-title{font-weight:600;font-size:20px;line-height:27px;text-align:center;text-transform:uppercase;color:#000}.theme_dark .plans-item-title{color:#dad8de}.plans-item-price{font-family:Montserrat,sans-serif;font-weight:700;font-size:36px;line-height:44px;text-align:center;color:#2f2f2f}.theme_dark .plans-item-price{color:#7f00ac}.plans-item-duration{font-family:Montserrat,sans-serif;font-weight:700;font-size:36px;line-height:44px;text-align:center;color:#d5d5d5}.theme_dark .plans-item-duration{color:#dad8de}.category-wrap{padding:30px;background:#fff;-webkit-box-shadow:0 3px 21px hsla(0,0%,46%,.2);box-shadow:0 3px 21px hsla(0,0%,46%,.2);display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:flex;margin-top:-150px;position:relative;z-index:10;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-align:center;-moz-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center}.theme_dark .category-wrap{background:#201c2b}.category-poster{-webkit-box-flex:0;-moz-box-flex:0;-ms-flex-positive:0;flex-grow:0;-ms-flex-negative:0;flex-shrink:0;-ms-flex-preferred-size:80px;flex-basis:80px;margin-bottom:30px;width:80px;height:80px}.category-img{width:inherit;height:inherit;-o-object-fit:cover;object-fit:cover}.category-description-wrap{-webkit-box-flex:0;-moz-box-flex:0;-ms-flex:0;flex:0;width:100%;-ms-flex-preferred-size:100%;flex-basis:100%}.category-description{font-size:14px;margin-bottom:30px}.category-bottom{position:static}@media screen and (min-width:576px){.category-wrap{-ms-flex-wrap:nowrap;flex-wrap:nowrap;-webkit-box-align:start;-moz-box-align:start;-ms-flex-align:start;align-items:flex-start}.category-description-wrap{padding-left:30px}}.course{-webkit-box-shadow:inset 0 0 0 1px #7f00ac;box-shadow:inset 0 0 0 1px #7f00ac;width:270px;height:420px;overflow:hidden;position:relative;margin:10px auto}.course-list{margin:0;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-align:start;-moz-box-align:start;-ms-flex-align:start;align-items:flex-start;-webkit-box-pack:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center;font-size:0}.course-list,.course-side-2{display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:flex}.course-side-2{-webkit-box-shadow:inset 0 0 0 1px #7f00ac;box-shadow:inset 0 0 0 1px #7f00ac;top:0;left:0;opacity:0;width:100%;height:100%;position:absolute;background:#fff;visibility:hidden;-webkit-box-orient:vertical;-webkit-box-direction:normal;-moz-box-orient:vertical;-moz-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:justify;-moz-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-transition:opacity,visibility,.2s;transition:opacity,visibility,.2s}.theme_dark .course-side-2{background:#392e5c}.course:focus .course-side-2,.course:hover .course-side-2{opacity:1;visibility:visible}.course-status{color:#fff;font-size:13px;line-height:18px;padding:3px 21px;display:inline-block;position:absolute;top:8px;left:0;background:gray}.theme_dark .course-status{color:#dad8de}.course-status-paid{background:#7f00ac}.course-status-free{background:#00da4a;color:#2f2f2f}.course-description-wrap{position:static;padding:0 18px}.theme_dark .course-description-wrap{background:#392e5c}.course-figure{display:block;margin:0 0 12px;background:#969494;height:140px;overflow:hidden;cursor:pointer}.theme_dark .course-figure{background:#201c2b}.course-img{width:100%;-webkit-transition:-webkit-transform .5s;transition:-webkit-transform .5s;transition:transform .5s;transition:transform .5s,-webkit-transform .5s;will-change:transform}.course-figure:hover .course-img{-webkit-transform:scale(1.1);transform:scale(1.1)}.course-primary-name{font-weight:600;font-size:18px;line-height:25px;text-transform:uppercase}.course-primary-name,.course-secondary-name{padding:0;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}.course-secondary-name{font-weight:400;font-size:14px;line-height:19px;color:#757575;margin-bottom:15px}.theme_dark .course-secondary-name{color:#dad8de}.course-description{height:133px;overflow:hidden;font-weight:400;font-size:14px;line-height:19px;color:#2f2f2f;margin-bottom:15px;padding:0}.theme_dark .course-description{color:#dad8de}.course-duration{font-size:0}.course-duration span{vertical-align:middle;font-size:12px;line-height:16px}.course-duration i{font-size:20px;margin-right:6px;color:#969494;vertical-align:middle}.course-lessons{font-size:0}.course-lessons span{vertical-align:middle;font-size:12px;line-height:16px}.course-lessons i{font-size:20px;margin-right:6px;color:#969494;vertical-align:middle}.course-lang{font-size:0;display:none}.course-lang span{vertical-align:middle;font-size:12px;line-height:16px}.course-lang i{font-size:20px;margin-right:6px;color:#969494;vertical-align:middle}.course-info{padding:0;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-moz-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.course-details{padding:27px 18px 18px}.course-details-top{position:static}.course-details-bottom{display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-moz-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.course-details-name{font-weight:600;font-size:18px;line-height:25px;text-transform:uppercase;margin-bottom:20px}.course-details-item{font-size:14px;line-height:19px;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:flex;margin-bottom:10px}.course-details-label{font-weight:600;color:#000;padding-right:6px}.theme_dark .course-details-label{color:#dad8de}.course-details-value{font-weight:400}.course-bookmark{color:#969494;background:transparent;border:none;font-size:26px;line-height:1.44;height:40px;width:40px;text-align:center;vertical-align:middle;cursor:pointer}.course-bookmark-active{color:#7f00ac}.course-btn,.course-btn:hover{text-decoration:none}.course-rating{height:20px;margin-bottom:50px;text-align:center;font-size:20px;line-height:1}.course-rating-item{border:none;background:none;padding:0;margin:0;cursor:default}.course-rating-item .icon-star-full{color:#7f00ac}.theme_dark .course-rating-item .icon-star-full{color:#dad8de}.course-rating-item .icon-star{color:#686868}@media screen and (min-width:992px){.course{margin-bottom:20px;height:auto;width:auto;-webkit-box-shadow:0 0 0 1px #7f00ac;box-shadow:0 0 0 1px #7f00ac}.course-list{display:block;margin:0 -10px}.course-side-1{display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:flex}.course-side-2{opacity:1;background:transparent;visibility:visible;position:static;-webkit-box-shadow:none;box-shadow:none}.course-figure{width:360px;height:220px;-ms-flex-preferred-size:360px;flex-basis:360px;-ms-flex-negative:0;flex-shrink:0;-webkit-box-flex:0;-moz-box-flex:0;-ms-flex-positive:0;flex-grow:0;margin:0}.course-description-wrap{padding:20px;-webkit-box-flex:1;-moz-box-flex:1;-ms-flex:1;flex:1;width:100%;-ms-flex-preferred-size:100%;flex-basis:100%;max-width:calc(100% - 360px)}.course-description{height:60px;font-size:14px;margin-bottom:16px;line-height:21px}.course-rating{top:20px;right:20px;position:absolute}.course-primary-name{margin-bottom:11px;padding-right:140px;font-size:20px;line-height:27px}.course-primary-name,.course-secondary-name{white-space:nowrap;text-overflow:ellipsis;overflow:hidden}.course-img{width:inherit;height:inherit;-o-object-fit:inherit;object-fit:inherit}.course-info{display:block}.course-duration,.course-lang,.course-lessons{margin-right:50px;display:inline-block;vertical-align:middle}.course-details{padding:0;margin:0}.course-details-item,.course-details-name{display:none}.course-details-item-rating{top:55px;margin:0;z-index:2;right:20px;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:flex;position:absolute;text-align:right}.course-details-bottom{width:190px;position:absolute;right:20px;bottom:20px;-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-moz-box-orient:horizontal;-moz-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse}}.course-wrap{margin-bottom:40px;padding:30px;background:#fff;-webkit-box-shadow:0 3px 21px hsla(0,0%,46%,.2);box-shadow:0 3px 21px hsla(0,0%,46%,.2);margin-top:-130px;position:relative;z-index:10;-ms-flex-wrap:wrap;flex-wrap:wrap;min-height:180px}.theme_dark .course-wrap{background:#201c2b}.course-wrap-side-left{margin-bottom:40px}.course-wrap-description{position:static;font-size:14px;line-height:19px}.course-wrap-bottom{text-align:center}@media screen and (min-width:768px){.course-wrap{display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:flex}.course-wrap-side-left{width:60%;-webkit-box-flex:60%;-moz-box-flex:60%;-ms-flex:60% 0 0px;flex:60% 0 0;padding-right:10px;margin-bottom:0}.course-wrap-side-right{width:40%;-webkit-box-flex:40%;-moz-box-flex:40%;-ms-flex:40% 0 0px;flex:40% 0 0;padding-left:10px}}@media screen and (min-width:992px){.course-wrap-side-right{padding-left:70px}}.theme_dark .course{background-color:#392e5c}.course-box{-ms-flex-pack:start;-webkit-box-align:start;-moz-box-align:start;-ms-flex-align:start;align-items:flex-start;-ms-flex-wrap:wrap;flex-wrap:wrap}.course-box,.course-box-item{display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-pack:start;-moz-box-pack:start;justify-content:flex-start}.course-box-item{width:50%;-webkit-box-flex:50%;-moz-box-flex:50%;-ms-flex:50% 0 0px;flex:50% 0 0;margin-bottom:30px;-webkit-box-align:center;-moz-box-align:center;-ms-flex-align:center;align-items:center;-ms-flex-pack:start;padding-right:10px}.course-box-left{width:30px;padding-right:10px;-webkit-box-flex:30px;-moz-box-flex:30px;-ms-flex:30px 0 0px;flex:30px 0 0;color:#969494;font-size:20px;line-height:20px}.theme_dark .course-box-left{color:#dad8de}.course-box-right{font-size:12px;line-height:16px}.course-box-title{font-weight:600;text-transform:uppercase;color:#969494}.theme_dark .course-box-title{color:#dad8de}.course-box-value:not(a){color:#000}.theme_dark .course-box-value:not(a){color:#dad8de}.course-blocked{text-align:center;max-width:574px;margin:auto}.course-blocked-info{font-weight:400;font-size:24px;line-height:33px;text-align:center;color:#969494;margin-bottom:30px}.theme_dark .course-blocked-info{color:#dad8de}.course-blocked-btn{margin-bottom:30px}.lessons-list{max-height:430px;overflow:auto;width:100%;list-style-type:none;padding:0 24px 0 0;margin:0}.lessons-list-progress{display:block;position:absolute;top:0;left:0;width:100%;height:100%}.lessons-head{display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-moz-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-line-pack:start;align-content:flex-start}.lessons-item{border-bottom:1px solid #d8d8d8;list-style-type:none;padding:10px;margin:0;cursor:pointer;position:relative}.lessons-duration{font-size:12px;color:#757575;line-height:16px;font-weight:400}.lessons-title{color:#969494;font-size:12px;line-height:16px;text-transform:uppercase}.lessons-name,.lessons-title{font-weight:600;margin-bottom:3px}.lessons-name{color:#000;font-size:14px;line-height:19px}.theme_dark .lessons-name{color:#dad8de}@media screen and (min-width: 1400px) {.lessons-list {max-height: 525px;}}@media screen and (min-width: 1600px) {.lessons-list {max-height: 600px;}}@media screen and (min-width: 1900px) {.lessons-list {max-height: 712px;}}.video__progress{left:0;top:auto;width:100%;height:20px;bottom:-20px;display:block;position:absolute;opacity:0}@media screen and (min-width:860px){.video__progress{opacity:.7}}.progress-box{height:10px;position:relative;margin-bottom:10px}.progress-box,progress{width:100%;display:block}progress{top:0;left:0;bottom:0;margin:0;z-index:0;opacity:.1;height:100%;border:none;overflow:hidden;position:absolute;-webkit-appearance:none}progress::-webkit-progress-bar{padding:0;border-radius:0;-webkit-box-shadow:none;box-shadow:none;background:rgba(0,0,0,.01)}progress::-webkit-progress-value{background-image:-webkit-linear-gradient(-45deg,transparent 33%,rgba(0,0,0,.1) 0,rgba(0,0,0,.1) 66%,transparent 0),-webkit-linear-gradient(top,hsla(0,0%,100%,.25),rgba(0,0,0,.25)),-webkit-linear-gradient(left,#7f00ac,#5d38db);background-size:35px 20px,100% 100%,100% 100%}.player{position:relative;padding-bottom:30px}.player-box{display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-pack:start;-moz-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;-webkit-box-orient:vertical;-webkit-box-direction:reverse;-moz-box-orient:vertical;-moz-box-direction:reverse;-ms-flex-direction:column-reverse;flex-direction:column-reverse}.player-left{width:100%;margin-bottom:30px}.player-right{display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-moz-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center;margin-bottom:20px}.player-right-black{background:#000;position:relative;padding-bottom:52%;padding-top:25px;height:0}.player-right-black #myElement{position:absolute;top:0;left:0;width:100%;height:100%!important}@media screen and (min-width:992px){.player-box{-webkit-box-align:stretch;-moz-box-align:stretch;-ms-flex-align:stretch;align-items:stretch;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-moz-box-orient:horizontal;-moz-box-direction:normal;-ms-flex-direction:row;flex-direction:row}.player-full .player-box{-webkit-box-orient:vertical;-webkit-box-direction:reverse;-moz-box-orient:vertical;-moz-box-direction:reverse;-ms-flex-direction:column-reverse;flex-direction:column-reverse}.player-left{-webkit-box-flex:350px;-moz-box-flex:350px;-ms-flex:350px 0 0px;flex:350px 0 0;max-width:350px;margin-bottom:0}.player-full .player-left{display:block;max-width:100%;padding-top:40px;-webkit-box-flex:1;-moz-box-flex:1;-ms-flex:1;flex:1}.player-right{-webkit-box-flex:1;-moz-box-flex:1;-ms-flex:1 0 0px;flex:1 0 0;margin:0}.player-full .player-right{display:block}.player-right-black{padding-bottom:37.25%}.player-full .player-right-black{padding-bottom:54%}}.rang-btn{color:#969494;background:transparent;border:none;font-size:26px;line-height:1.44;height:40px;width:40px;text-align:center;vertical-align:middle;cursor:pointer}.rang-text{font-size:16px;margin-right:5px;margin-left:5px}:focus{outline:5px auto blue}.vh{border:0;clip:rect(0 0 0 0);-webkit-clip-path:inset(50%);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;white-space:nowrap}.container{max-width:1170px;margin:0 auto;padding:0 12px}@media screen and (min-width:1400px){.container{max-width:1370px}}@media screen and (min-width:1600px){.container{max-width:1570px}}@media screen and (min-width:1900px){.container{max-width:1870px}}.relative{position:relative}.text-left{text-align:left}.text-center{text-align:center}.text-right{text-align:right}.mt-0{margin-top:0}.mt-5{margin-top:5px}.mt-10{margin-top:10px}.mt-15{margin-top:15px}.mt-20{margin-top:20px}.mt-25{margin-top:25px}.mt-30{margin-top:30px}.mt-35{margin-top:35px}.mt-40{margin-top:40px}.ml-0{margin-left:0}.ml-5{margin-left:5px}.ml-10{margin-left:10px}.ml-15{margin-left:15px}.ml-20{margin-left:20px}.ml-25{margin-left:25px}.ml-30{margin-left:30px}.ml-35{margin-left:35px}.ml-40{margin-left:40px}.mr-0{margin-right:0}.mr-5{margin-right:5px}.mr-10{margin-right:10px}.mr-15{margin-right:15px}.mr-20{margin-right:20px}.mr-25{margin-right:25px}.mr-30{margin-right:30px}.mr-35{margin-right:35px}.mr-40{margin-right:40px}.mb-0{margin-bottom:0}.mb-5{margin-bottom:5px}.mb-10{margin-bottom:10px}.mb-15{margin-bottom:15px}.mb-20{margin-bottom:20px}.mb-25{margin-bottom:25px}.mb-30{margin-bottom:30px}.mb-35{margin-bottom:35px}.mb-40{margin-bottom:40px}.pt-0{padding-top:0}.pt-5{padding-top:5px}.pt-10{padding-top:10px}.pt-15{padding-top:15px}.pt-20{padding-top:20px}.pt-25{padding-top:25px}.pt-30{padding-top:30px}.pt-35{padding-top:35px}.pt-40{padding-top:40px}.pl-0{padding-left:0}.pl-5{padding-left:5px}.pl-10{padding-left:10px}.pl-15{padding-left:15px}.pl-20{padding-left:20px}.pl-25{padding-left:25px}.pl-30{padding-left:30px}.pl-35{padding-left:35px}.pl-40{padding-left:40px}.pr-0{padding-right:0}.pr-5{padding-right:5px}.pr-10{padding-right:10px}.pr-15{padding-right:15px}.pr-20{padding-right:20px}.pr-25{padding-right:25px}.pr-30{padding-right:30px}.pr-35{padding-right:35px}.pr-40{padding-right:40px}.pb-0{padding-bottom:0}.pb-5{padding-bottom:5px}.pb-10{padding-bottom:10px}.pb-15{padding-bottom:15px}.pb-20{padding-bottom:20px}.pb-25{padding-bottom:25px}.pb-30{padding-bottom:30px}.pb-35{padding-bottom:35px}.pb-40{padding-bottom:40px}.float-left{float:left}.float-right{float:right}.cc .mc-nocomments{opacity:1!important}.theme_dark .cc .mc-comment-msg,.theme_dark .cc .mc-comment-username,.theme_dark .cc .mc-head .mc-user-menu .mc-menu-toggle,.theme_dark .cc .mc-head .mc-user-menu .mc-menu-toggle:hover,.theme_dark .cc .mc-nav li a,.theme_dark .cc .mc-nav li a:hover,.theme_dark .cc .mc-nocomments,.theme_dark .cc .mc-sort li.mc-active .mc-sort-hover,.theme_dark .cc .mc-sort li.mc-active a,.theme_dark .mc-complaint .mc-comment-msg,.theme_dark .mc-complaint .mc-comment-username{color:#dad8de!important}.theme_dark .cc .mc-expanded .mc-text-cnt .mc-text-wrap,.theme_dark .cc .mc-text-wrap,.theme_dark .cc .mc-text-wrap .mc-textarea,.theme_dark .mc-c .mc-auth-anonym input,.theme_dark .mc-complaint .mc-text-wrap,.theme_dark .mc-complaint .mc-textarea{color:#dad8de!important;background-color:#392e5c!important}.form-error{font-size:14px;color:tomato}.form-error:not(:empty){margin-bottom:40px}.form-success{font-size: 14px;color: green}.form-success:not(:empty){margin-bottom:40px}
+</style>
+
+        <!--[if lt IE 9]>
+        <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+            </head>
+    <body >
+
+          <header class="main-header">
+    <div class="container main-header-container">
+      <div class="main-header-side">
+        <a href="https://coursehunters.net/" title="ch" class="main-header-logo">
+          <i class="icon-logo"></i>
+        </a>
+        <a href="https://coursehunters.net/categories" title="Категории" class="main-header-link">Категории</a>
+              </div>
+      <div class="main-header-side main-header-side-right">
+        <form class="main-search" autocomplete="off" action="https://coursehunters.net/search">
+            <label for="mainSearch"><span class="vh">Поиск</span></label>
+            <input type="search" class="main-search-input" placeholder="Поиск" name="q" value="" id="mainSearch">
+        </form>
+        <a href="https://coursehunters.net/donate" title="Donate" class="btn btn-s main-header-donate">Donate</a>
+                  <a href="https://coursehunters.net/sign-in" title="Вход" class="main-header-link">Sign in</a>
+              </div>
+    </div>
+  </header>
+
+
+                
+    <script type="application/ld+json">
+    [
+      {
+        "name": "1С - Битрикс. Быстрый старт разработчика",
+        "alternateName": "1С - Битрикс. Быстрый старт разработчика",
+        "about": {
+          "name": "CMS"
+        },
+        "creator": [
+          {
+            "@type": "Person",
+            "name": "specialist"
+          }
+        ],
+        "@type": "Course",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "bestRating": 5,
+          "ratingValue": "1.3",
+          "reviewCount": 15,
+          "worstRating": 0
+        },
+        "@id": "https://coursehunters.net/course/1s-bitriks-bystryy-start-razrabotchika",
+        "inLanguage": "ru",
+        "image": " /uploads/course_posters_/1s-bitriks-bystryy-start-razrabotchika.jpg ",
+        "description": "Продукт &amp;laquo;1C-Битрикс: Управление сайтом&amp;raquo; представляет собой программное ядро для всестороннего управления веб-проектами любой сложности. Вы научитесь разрабатывать технологически сложные сайты (интернет-магазины) с нуля на базе системы управления контентом CMS 1С-Битрикс.",
+        "@context": "http://schema.org",
+        "datePublished": "2018-11-12",
+        "dateModified": "2018-11-12",
+        "provider": {
+          "@type": "Organization",
+          "name": "specialist",
+          "sameAs": "https://coursehunters.net/source/specialist"
+        },
+        "isAccessibleForFree": true,
+        "publisher": {
+          "@type": "Organization",
+          "name": "CourseHunters",
+          "sameAs": "https://coursehunters.net"
+        }
+      }
+    ]
+    </script>
+    <div class="hero hero-gradient">
+        <div class="container">
+            <div class="relative">
+                <h1 class="hero-title">1С - Битрикс. Быстрый старт разработчика</h1>
+                <p class="hero-description">1С - Битрикс. Быстрый старт разработчика</p>
+
+                                    <div class="hero-source">specialist</div>
+                            </div>
+
+            <div class="breadcrumbs hero-breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+                <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="breadcrumbs__span">
+                    <a class="breadcrumbs__a" itemprop="item" href="https://coursehunters.net/">
+                        <span itemprop="name">Главная страница</span>
+                    </a>
+                    <meta itemprop="position" content="1"/>
+                </span>
+                <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="breadcrumbs__span">
+                    <a class="breadcrumbs__a" itemprop="item" href="https://coursehunters.net/cms">
+                        <span itemprop="name">CMS</span>
+                    </a>
+                    <meta itemprop="position" content="2"/>
+                </span>
+                <span class="breadcrumbs__a breadcrumbs__a_active">1С - Битрикс. Быстрый старт разработчика</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+      <div class="course-wrap">
+        <div class="course-wrap-side-left">
+
+                    
+          <div class="course-wrap-description">
+            <p>Продукт &laquo;1C-Битрикс: Управление сайтом&raquo; представляет собой программное ядро для всестороннего управления веб-проектами любой сложности. Вы научитесь разрабатывать технологически сложные сайты (интернет-магазины) с нуля на базе системы управления контентом CMS 1С-Битрикс.</p><br>
+                          <ul type="disc"><li>1С-Битрикс &mdash; универсальная, исключительно надежная, простая и удобная в работе, постоянно развивающаяся система.</li><li>1С-Битрикс &mdash; лидер российского рынка CMS-систем. 61% российских компаний используют сайты на базе CMS 1С-Битрикс. Возможности CMS 1С-Битрикс удовлетворяют потребности 95% клиентов. 1С-Битрикс прекрасно выдерживает высокие нагрузки. Разработка сайтов в 1С-Битрикс занимает минимум времени. &nbsp;1С-Битрикс постоянно дополняется новыми модулями, актуальными в настоящий момент. Среди последних инноваций &ndash; модули для создания социальных сетей, блогов, внутренний медиа-плеер и многое другое.</li></ul><p>Процесс разработки сайта 1С-Битрикс напоминает конструктор из множества подключаемых и настраиваемых модулей. Вы на практике под руководством преподавателя установите дистрибутив, изучите инструменты разработки сайта на 1С-Битрикс, &nbsp;научитесь поэтапно настраивать модули и создавать свой собственный интернет-магазин с нуля.</p>
+                      </div>
+        </div>
+        <div class="course-wrap-side-right">
+          <div class="course-box">
+                        <div class="course-box-item">
+                <div class="course-box-left">
+                  <i class="icon-time"></i>
+                </div>
+                <div class="course-box-right">
+                  <div class="course-box-title">Продолжительность</div>
+                  <div class="course-box-value">13:08:10</div>
+                </div>
+              </div>
+                                      <div class="course-box-item">
+                <div class="course-box-left">
+                  <i class="icon-source"></i>
+                </div>
+                <div class="course-box-right">
+                  <div class="course-box-title">Источник</div>
+                  <a class="course-box-value" href="https://coursehunters.net/source/specialist">specialist</a>
+                </div>
+              </div>
+                                      <div class="course-box-item">
+                <div class="course-box-left">
+                  <i class="icon-lesson"></i>
+                </div>
+                <div class="course-box-right">
+                  <div class="course-box-title">Количество уроков</div>
+                  <div class="course-box-value">3 Видео</div>
+                </div>
+              </div>
+                        <div class="course-box-item">
+              <div class="course-box-left">
+                <i class="icon-calendar"></i>
+              </div>
+              <div class="course-box-right">
+                <div class="course-box-title">Дата добавления</div>
+                <div class="course-box-value">12/11/2018</div>
+              </div>
+            </div>
+                        <div class="course-box-item">
+              <div class="course-box-left">
+                <i class="icon-language"></i>
+              </div>
+              <div class="course-box-right">
+                <div class="course-box-title">Язык</div>
+                <div class="course-box-value">Русский</div>
+              </div>
+            </div>
+                                              </div>
+
+          <div class="course-wrap-bottom pt-10 text-left">
+          
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-content relative">
+              <div class="standard">
+          <div class="container">
+            <h2 class="standard-title">Видео курса</h2>
+
+                                                                              <div class="player" data-id="1378">
+    <div class="player-box">
+               <div class="player-left">
+            <ul id="lessons-list" class="lessons-list">
+                            <li class="lessons-item" data-index="0" itemscope itemtype="https://schema.org/VideoObject">
+                    <div class="lessons-head">
+                        <span class="lessons-title" itemprop="name">Урок 1.</span>
+                        <span class="lessons-duration">05:33:29</span>
+                    </div>
+                    <div class="lessons-name">Лекция 1</div>
+                    <meta itemprop="description" content="Лекция 1"/>
+                    <link itemprop="thumbnail" href="/uploads/course_posters_/1s-bitriks-bystryy-start-razrabotchika.jpg"/>
+                    <link itemprop="thumbnailUrl" href="/uploads/course_posters_/1s-bitriks-bystryy-start-razrabotchika.jpg"/>
+                    <link href="https://vs2.coursehunters.net/specialist-1cb-nov/lesson1.mp4" itemprop="url"/>
+                    <link href="https://vs2.coursehunters.net/specialist-1cb-nov/lesson1.mp4" itemprop="contentUrl"/>
+                    <meta itemprop="isFamilyFriendly" content="true"/>
+                    <meta itemprop="duration" content="05:33:29"/>
+                    <meta itemprop="uploadDate" content="2018-11-12 17:01:55"/>
+                    <progress class="lessons-list__progress" max="100" value="0"></progress>
+                </li>
+                            <li class="lessons-item" data-index="1" itemscope itemtype="https://schema.org/VideoObject">
+                    <div class="lessons-head">
+                        <span class="lessons-title" itemprop="name">Урок 2.</span>
+                        <span class="lessons-duration">03:14:03</span>
+                    </div>
+                    <div class="lessons-name">Лекция 2</div>
+                    <meta itemprop="description" content="Лекция 2"/>
+                    <link itemprop="thumbnail" href="/uploads/course_posters_/1s-bitriks-bystryy-start-razrabotchika.jpg"/>
+                    <link itemprop="thumbnailUrl" href="/uploads/course_posters_/1s-bitriks-bystryy-start-razrabotchika.jpg"/>
+                    <link href="https://vs2.coursehunters.net/specialist-1cb-nov/lesson2.mp4" itemprop="url"/>
+                    <link href="https://vs2.coursehunters.net/specialist-1cb-nov/lesson2.mp4" itemprop="contentUrl"/>
+                    <meta itemprop="isFamilyFriendly" content="true"/>
+                    <meta itemprop="duration" content="03:14:03"/>
+                    <meta itemprop="uploadDate" content="2018-11-12 17:01:55"/>
+                    <progress class="lessons-list__progress" max="100" value="0"></progress>
+                </li>
+                            <li class="lessons-item" data-index="2" itemscope itemtype="https://schema.org/VideoObject">
+                    <div class="lessons-head">
+                        <span class="lessons-title" itemprop="name">Урок 3.</span>
+                        <span class="lessons-duration">04:20:38</span>
+                    </div>
+                    <div class="lessons-name">Лекция 3</div>
+                    <meta itemprop="description" content="Лекция 3"/>
+                    <link itemprop="thumbnail" href="/uploads/course_posters_/1s-bitriks-bystryy-start-razrabotchika.jpg"/>
+                    <link itemprop="thumbnailUrl" href="/uploads/course_posters_/1s-bitriks-bystryy-start-razrabotchika.jpg"/>
+                    <link href="https://vs2.coursehunters.net/specialist-1cb-nov/lesson3.mp4" itemprop="url"/>
+                    <link href="https://vs2.coursehunters.net/specialist-1cb-nov/lesson3.mp4" itemprop="contentUrl"/>
+                    <meta itemprop="isFamilyFriendly" content="true"/>
+                    <meta itemprop="duration" content="04:20:38"/>
+                    <meta itemprop="uploadDate" content="2018-11-12 17:01:55"/>
+                    <progress class="lessons-list__progress" max="100" value="0"></progress>
+                </li>
+                        </ul>
+        </div>
+            <div class="player-right player-right-black">
+          <div id="myElement"></div>
+          <progress class="video__progress" max="100" value="0"></progress>
+      </div>
+    </div>
+        <div class="pt-20">
+      <button class="btn mt-20" id="lessons-toggle">Плеер на 100%</button>
+    </div>
+      </div>
+
+            <script src="https://content.jwplatform.com/libraries/OJAvwjB6.js"></script>
+        <script src="https://coursehunters.net/libraries/lockr.min.js"></script>
+        <script>
+            // global variables
+            var myPlaylist = [];
+            var course_id = 1378;
+            var lessonsCount = 3;
+            var userId = null;
+                        var videoTag;
+            var progress;
+            var local = Lockr.get(course_id);
+            var progressList = document.querySelectorAll('#lessons-list li progress');
+            var videoProgress = document.querySelector('.video__progress');
+            var totalDuration = 0;
+
+            // myPlaylist
+            
+
+            totalDuration += parseInt('05:33:29'.replace(":", "").replace(":", ""));
+
+
+            myPlaylist.push({
+                "file": "https://vs2.coursehunters.net/specialist-1cb-nov/lesson1.mp4",
+                "image": " /uploads/course_posters_/1s-bitriks-bystryy-start-razrabotchika.jpg ",
+                "title": "Лекция 1",
+                "mediaid": "0",
+                "tracks": [{
+                "file": "",
+                "label": "ru",
+                "kind": "captions",
+                "default": true
+                }]
+            });
+            
+
+            totalDuration += parseInt('03:14:03'.replace(":", "").replace(":", ""));
+
+
+            myPlaylist.push({
+                "file": "https://vs2.coursehunters.net/specialist-1cb-nov/lesson2.mp4",
+                "image": " /uploads/course_posters_/1s-bitriks-bystryy-start-razrabotchika.jpg ",
+                "title": "Лекция 2",
+                "mediaid": "1",
+                "tracks": [{
+                "file": "",
+                "label": "ru",
+                "kind": "captions",
+                "default": true
+                }]
+            });
+            
+
+            totalDuration += parseInt('04:20:38'.replace(":", "").replace(":", ""));
+
+
+            myPlaylist.push({
+                "file": "https://vs2.coursehunters.net/specialist-1cb-nov/lesson3.mp4",
+                "image": " /uploads/course_posters_/1s-bitriks-bystryy-start-razrabotchika.jpg ",
+                "title": "Лекция 3",
+                "mediaid": "2",
+                "tracks": [{
+                "file": "",
+                "label": "ru",
+                "kind": "captions",
+                "default": true
+                }]
+            });
+            
+
+            // class Progress
+            function Progress (course_id, lessons, currentTrack, currentSeek, currentSpeed, totalPercent, lessonsCount) {
+                this.course_id = course_id;
+
+                lessons ? this.lessons = lessons : this.lessons = [];
+                +currentTrack ? this.currentTrack = +currentTrack : this.currentTrack = 0;
+                +currentSeek ? this.currentSeek = +currentSeek : this.currentSeek = 0;
+                +currentSpeed ? this.currentSpeed = +currentSpeed : this.currentSpeed = 1;
+                +totalPercent ? this.totalPercent = +totalPercent : this.totalPercent = 0;
+                +lessonsCount ? this.lessonsCount = +lessonsCount : this.lessonsCount = 0;
+            }
+
+            Progress.prototype.setCurrentTrack = function(track) {
+                this.currentTrack = track;
+            };
+
+            Progress.prototype.setCurrentSpeed = function(speed) {
+                this.currentSpeed = speed;
+            };
+
+            Progress.prototype.getCurrentSpeed = function() {
+                return this.currentSpeed;
+            };
+
+            Progress.prototype.setCurrentSeek = function(seek) {
+                this.currentSeek = seek;
+            };
+
+            Progress.prototype.getTotalPercent = function() {
+                return this.totalPercent;
+            };
+
+            Progress.prototype.setTotalPercent = function(totalPercent) {
+                this.totalPercent = totalPercent;
+                this.setVideoProgress(totalPercent);
+            };
+
+            Progress.prototype.getLessons = function() {
+                return this.lessons.filter(function (item) { return item  !== null });
+            };
+
+
+            Progress.prototype.setCurrentLesson = function(index, currentLesson) {
+                this.lessons[index] = currentLesson;
+            };
+
+            Progress.prototype.getLessonsList = function() {
+                return {
+                    'course_id': this.course_id,
+                    'lessons': this.lessons,
+                    'currentTrack': this.currentTrack,
+                    'currentSeek': this.currentSeek,
+                    'currentSpeed': this.currentSpeed,
+                    'totalPercent': this.totalPercent
+                };
+            };
+
+            Progress.prototype.updateProgressLessons = function () {
+                if(progressList && progressList.length) {
+                    for( var i = 0; i < progress.lessons.length; i++) {
+                        if (progress.lessons[i] && progress.lessons[i].percent) {
+                            progressList[i].setAttribute('value', progress.lessons[i].percent);
+                        }
+                    }
+                }
+            };
+
+            Progress.prototype.updateProgressLessonOne = function (index, percent) {
+                if (progressList[index]) {
+                    progressList[index].setAttribute('value', percent);
+                }
+            };
+
+
+            Progress.prototype.setVideoProgress = function(totalPercent) {
+                videoProgress.setAttribute('value', totalPercent);
+            };
+
+            Progress.prototype.saveTime = function(course_id, userId) {
+            if(typeof fetch === 'function') {
+                fetch('/api/history', {
+                    method: 'post',
+                    body: JSON.stringify({
+                    course_id: course_id,
+                    user_id: userId,
+                    current_track: this.currentTrack,
+                    current_seek: this.currentSeek
+                    }),
+                    headers: new Headers({
+                    'Content-Type': 'application/json'
+                    }),
+                })
+                .then(function(response) {
+                    return response.json();
+                })
+                .then(function(data) {
+                    // console.log(data);
+                })
+                .catch(function(error) {
+                    console.error(error);
+                });
+            }
+            };
+
+            // get localStorage and init class Progress
+            if (local) {
+                progress = new Progress(course_id, local.lessons, local.currentTrack, local.currentSeek, local.currentSpeed, local.totalPercent, lessonsCount);
+                progress.updateProgressLessons();
+            } else {
+                progress = new Progress(course_id, new Array(lessonsCount), undefined, undefined, undefined, undefined, lessonsCount);
+            }
+
+            // init jwplayer
+            var playerInstance = jwplayer("myElement");
+            playerInstance.setup({
+                aspectratio: "16:8",
+                playlist: myPlaylist,
+                width: "100%",
+                primary: "html5",
+                playbackRateControls: [2, 1.8, 1.6, 1.4, 1.2, 1, 0.8],
+                ga: {
+                    label: "1С - Битрикс. Быстрый старт разработчика"
+                },
+                events: {
+                    onTime: function (event) {
+                        var seek;
+                        var duration;
+                        var percent;
+                        var currentTrack;
+                        var currentLesson = {};
+                        var lessons;
+
+                        seek = Math.floor(event.position);
+                        currentTrack = this.getPlaylistIndex();
+
+                        duration = Math.floor(this.getDuration());
+                        percent =  Math.floor((seek / duration) * 100);
+
+                        currentLesson.seek = seek;
+                        currentLesson.duration = duration;
+                        currentLesson.percent = percent;
+
+                        progress.setCurrentLesson(currentTrack, currentLesson);
+                        progress.setCurrentTrack(currentTrack);
+                        progress.setCurrentSeek(seek);
+
+                        progress.updateProgressLessonOne(currentTrack, percent);
+
+                        lessons = progress.getLessons();
+
+                        if (lessons.length) {
+                            var totalSeek = 0;
+
+                            for(var i = 0; i < lessons.length; i++) {
+                                totalSeek += lessons[i].seek;
+                            }
+                            progress.setTotalPercent(Math.floor((totalSeek / totalDuration) * 160))
+
+                        }
+
+
+                        Lockr.set(course_id, progress.getLessonsList());
+
+                    }
+                }
+            });
+
+            if (userId) {
+            playerInstance.on('play', function(event){
+                progress.saveTime(course_id, userId);
+            });
+            }
+
+            // add other btn for player
+            playerInstance.on("ready", function() {
+                if (playerInstance.getRenderingMode() == "html5") {
+                    videoTag = document.querySelector('video');
+                    if (progress && progress.currentTrack || progress.currentSeek ) {
+                        playerInstance.playlistItem(progress.currentTrack);
+                        playerInstance.seek(progress.currentSeek);
+                    }
+                    if (videoTag.webkitSupportsPresentationMode && typeof videoTag.webkitSetPresentationMode === "function") {
+                        playerInstance.addButton(
+                        "/images/pip.svg",
+                        "Picture-in-Picture",
+                        function() {
+                            videoTag.webkitSetPresentationMode(videoTag.webkitPresentationMode === "picture-in-picture" ? "inline" : "picture-in-picture");
+                        },
+                        "pip"
+                        );
+                    }
+                }
+
+            });
+
+            // click lessons-list
+            document.getElementById('lessons-list').addEventListener('click', function (event) {
+                var target = event.target;
+                var myindex;
+                if (target.tagName === 'LI') {
+                    myindex = target.getAttribute('data-index');
+                    playerInstance.playlistItem(myindex);
+                } else {
+                    myindex = target.closest('li').getAttribute('data-index');
+                    playerInstance.playlistItem(myindex);
+                }
+            });
+        </script>
+    
+
+                          
+          </div>
+        </div>
+      
+      
+            </div> 
+        <section class="standard">
+      <div class="container">
+          <h2 class="standard-title">Комментарии</h2>
+          <div id="mc-container"></div>
+          <script>
+              cackle_widget = window.cackle_widget || [];
+              cackle_widget.push({widget: 'Comment', id: 52525});
+              (function () {
+                  var mc = document.createElement('script');
+                  mc.type = 'text/javascript';
+                  mc.async = true;
+                  mc.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cackle.me/widget.js';
+                  var s = document.getElementsByTagName('script')[0];
+                  s.parentNode.insertBefore(mc, s.nextSibling);
+              })();
+          </script>
+      </div>
+  </section>
+
+
+            <section class="standard mt-25">
+            <div class="container">
+                <h2 class="standard-title">Похожие курсы</h2>
+                <div class="course-list mb-25">
+                    <div class="course-list">
+                                                        <article class="course" data-bookmark="">
+      <div class="course-side course-side-1">
+        <picture class="course-figure" data-link="https://coursehunters.net/course/1s-bitriks-praktika-sozdaniya-veb-proektov">
+                      <source srcset="https://coursehunters.net/uploads/course_posters_/1s-bitriks-praktika-sozdaniya-veb-proektov.jpg" media="(min-width: 992px)">             <source srcset="https://coursehunters.net/uploads/course_posters_/1s-bitriks-praktika-sozdaniya-veb-proektov.jpg">                     <img src="https://coursehunters.net/uploads/course_posters_/1s-bitriks-praktika-sozdaniya-veb-proektov.jpg" alt="1С-Битрикс: Практика создания веб-проектов" class="course-img" onerror="this.src='/images/no-logo.svg'">
+        </picture>
+        <div class="course-description-wrap">
+          <h3 class="course-primary-name">1С-Битрикс: Практика создания веб-проектов</h3>
+          <div class="course-secondary-name" title="Original name">1С-Битрикс: Практика создания веб-проектов</div>
+          <div class="course-description">
+            Кратчайший путь к крупным заказчикам и высоким гонорарам для веб-разработчиков. &laquo;1С-Битрикс: Управление сайтом&raquo; &mdash; это CMS, которая позволяет создать сайт практически любой функциональности, используя соответствующие шаблоны и модули. Система управления веб-проектами представляет собой универсальный программный продукт для создания, поддержки и успешного развития.
+          </div>
+          <div class="course-info">
+                          <div class="course-duration">
+                <i class="icon-time"></i>
+                <span>38:40:01</span>
+              </div>
+                                      <div class="course-lessons">
+                <i class="icon-lesson"></i>
+                <span>117 lessons</span>
+              </div>
+                                      <div class="course-lang">
+                <i class="icon-language"></i>
+                <span>Русский</span>
+              </div>
+                                      <div class="course-lessons">
+                <i class="icon-source"></i>
+                <span>webformyself</span>
+              </div>
+                      </div>
+        </div>
+              </div>
+      <div class="course-side course-side-2 course-details">
+        <div class="course-details-top">
+          
+    
+  <div class="course-rating" title="Total voites 33">
+                    <span class="course-rating-item"><i class="icon-star-full"></i></span>
+                          <span class="course-rating-item"><i class="icon-star-full"></i></span>
+                          <span class="course-rating-item"><i class="icon-star-full"></i></span>
+                          <span class="course-rating-item"><i class="icon-star-full"></i></span>
+                        <span class="course-rating-item"><i class="icon-star"></i></span>
+            </div>
+
+          <div class="course-details-name">1С-Битрикс: Практика создания веб-проектов</div>
+          <div class="course-details-item course-details-item-rating">
+            <div class="course-details-label">Голосов:</div>
+            <div class="course-details-value">33 | 31/2</div>
+          </div>
+                      <div class="course-details-item">
+              <div class="course-details-label">Язык:</div>
+              <div class="course-details-value">Русский</div>
+            </div>
+                    <div class="course-details-item">
+            <div class="course-details-label">Источник:</div>
+            <div class="course-details-value">
+              <a href="https://coursehunters.net/source/webformyself">webformyself</a>
+            </div>
+          </div>
+                      <div class="course-details-item">
+              <div class="course-details-label">Дата добавления:</div>
+              <div class="course-details-value">31/05/2018</div>
+            </div>
+                                <div class="course-details-item">
+              <div class="course-details-label">Дата выхода:</div>
+              <div class="course-details-value">31/05/2018</div>
+            </div>
+                  </div>
+        <div class="course-details-bottom">
+          <a href="https://coursehunters.net/course/1s-bitriks-praktika-sozdaniya-veb-proektov" class="course-btn btn" title="Посмотреть">Посмотреть</a>
+                  </div>
+      </div>
+    </article>
+
+                                                        <article class="course" data-bookmark="">
+      <div class="course-side course-side-1">
+        <picture class="course-figure" data-link="https://coursehunters.net/course/bitrix">
+                      <source srcset="https://coursehunters.net/uploads/course_posters_/bitrix.jpg" media="(min-width: 992px)">             <source srcset="https://coursehunters.net/uploads/course_posters_/bitrix.jpg">                     <img src="https://coursehunters.net/uploads/course_posters_/bitrix.jpg" alt="Битрикс" class="course-img" onerror="this.src='/images/no-logo.svg'">
+        </picture>
+        <div class="course-description-wrap">
+          <h3 class="course-primary-name">Битрикс</h3>
+          <div class="course-secondary-name" title="Original name">Битрикс</div>
+          <div class="course-description">
+            На собеседовании спросили, знаешь ли ты Битрикс, а твои глаза смотрят в пол и окно одновременно? Тогда запасайся успокоительным и включай этот курс, но для начала убедись что у тебя есть базовые знания HTML, CSS, JavaScript и PHP.
+          </div>
+          <div class="course-info">
+                          <div class="course-duration">
+                <i class="icon-time"></i>
+                <span>04:59:11</span>
+              </div>
+                                      <div class="course-lessons">
+                <i class="icon-lesson"></i>
+                <span>32 lessons</span>
+              </div>
+                                      <div class="course-lang">
+                <i class="icon-language"></i>
+                <span>Русский</span>
+              </div>
+                                      <div class="course-lessons">
+                <i class="icon-source"></i>
+                <span>bitrixacademy</span>
+              </div>
+                      </div>
+        </div>
+              </div>
+      <div class="course-side course-side-2 course-details">
+        <div class="course-details-top">
+          
+    
+  <div class="course-rating" title="Total voites 32">
+                    <span class="course-rating-item"><i class="icon-star-full"></i></span>
+                          <span class="course-rating-item"><i class="icon-star-full"></i></span>
+                          <span class="course-rating-item"><i class="icon-star-full"></i></span>
+                          <span class="course-rating-item"><i class="icon-star-full"></i></span>
+                        <span class="course-rating-item"><i class="icon-star"></i></span>
+            </div>
+
+          <div class="course-details-name">Битрикс</div>
+          <div class="course-details-item course-details-item-rating">
+            <div class="course-details-label">Голосов:</div>
+            <div class="course-details-value">32 | 27/5</div>
+          </div>
+                      <div class="course-details-item">
+              <div class="course-details-label">Язык:</div>
+              <div class="course-details-value">Русский</div>
+            </div>
+                    <div class="course-details-item">
+            <div class="course-details-label">Источник:</div>
+            <div class="course-details-value">
+              <a href="https://coursehunters.net/source/bitrixacademy">bitrixacademy</a>
+            </div>
+          </div>
+                      <div class="course-details-item">
+              <div class="course-details-label">Дата добавления:</div>
+              <div class="course-details-value">04/10/2016</div>
+            </div>
+                                <div class="course-details-item">
+              <div class="course-details-label">Дата выхода:</div>
+              <div class="course-details-value">30/11/-0001</div>
+            </div>
+                  </div>
+        <div class="course-details-bottom">
+          <a href="https://coursehunters.net/course/bitrix" class="course-btn btn" title="Посмотреть">Посмотреть</a>
+                  </div>
+      </div>
+    </article>
+
+                                            </div>
+                </div>
+            </div>
+        </section>
+    
+          <footer class="footer">
+    <div class="container">
+      <div class="footer-row">
+        <div class="footer-side footer-side-top">
+          <div class="footer-copy">
+            <svg xmlns="http://www.w3.org/2000/svg" width="218" height="22" fill="#ffffff" fill-rule="evenodd" class="footer-copy-logo"><path d="M14 8.894l-2.873 3.114c-.262-.34-.64-.613-1.134-.82s-.993-.3-1.497-.3c-1.028 0-1.865.354-2.5 1.06S5.02 13.5 5.02 14.5s.323 1.85.968 2.548 1.502 1.047 2.57 1.047c1.17 0 2.066-.35 2.7-1.047L14 20.188C12.67 21.396 10.815 22 8.436 22c-2.44 0-4.455-.68-6.048-2.036S0 16.782 0 14.5c0-2.246.8-4.057 2.404-5.435S6.007 7 8.406 7a9.86 9.86 0 0 1 3.16.524c1.038.35 1.85.804 2.434 1.37zm14.685.144C30.228 10.396 31 12.198 31 14.443s-.772 4.068-2.315 5.462S25.242 22 22.986 22c-2.237 0-4.128-.698-5.67-2.094S15 16.7 15 14.443s.77-4.047 2.315-5.406S20.748 7 22.986 7c2.257 0 4.157.68 5.7 2.038zm-2.257 5.406a3.74 3.74 0 0 0-.926-2.519c-.617-.717-1.456-1.075-2.517-1.075s-1.9.354-2.488 1.06-.897 1.552-.897 2.533.304 1.835.9 2.564 1.442 1.1 2.503 1.1 1.895-.363 2.503-1.1.9-1.58.9-2.564zM49 21.6h-4.827v-2.02h-.06c-.367.683-.967 1.26-1.802 1.728S40.548 22 39.53 22c-1.894 0-3.3-.58-4.185-1.743S34 17.682 34 16.024V7h5.04v7.9c0 2.072.754 3.105 2.26 3.105.835 0 1.492-.303 1.97-.908s.73-1.35.73-2.227V7h5v14.6zM62 7.117l-.2 4.22a4.19 4.19 0 0 0-1.145-.146c-1.073 0-1.873.356-2.4 1.07s-.8 1.46-.8 2.24V22H53V7.4h4.3v2.1h.054a4.41 4.41 0 0 1 1.5-1.83A3.71 3.71 0 0 1 61.046 7c.436 0 .752.04.955.117zM76 8.98l-2.683 2.632c-.934-.85-1.968-1.274-3.1-1.274-.517 0-.954.094-1.312.283s-.537.472-.537.85.2.65.566.82 1.093.368 2.147.594c3.16.682 4.74 2.113 4.74 4.302 0 1.642-.62 2.856-1.864 3.637S71.22 22 69.47 22a11.67 11.67 0 0 1-3.593-.564c-1.163-.374-2.122-.916-2.877-1.616l2.743-2.745c1.014 1.057 2.226 1.585 3.638 1.585.477 0 .9-.1 1.237-.297s.522-.505.522-.92-.214-.726-.64-.934-1.198-.434-2.3-.677c-2.882-.64-4.323-2.012-4.323-4.106 0-1.547.626-2.722 1.878-3.524S68.427 7 70.037 7c2.487 0 4.475.663 5.963 1.98zm17 5.693l-.03 1.104H82.538c.077.755.453 1.387 1.127 1.896s1.445.764 2.312.764c1.387 0 2.447-.5 3.18-1.472l3.295 2.037c-1.407 2-3.584 2.997-6.532 2.997-2.254 0-4.138-.663-5.65-1.995S78 16.86 78 14.558c0-2.264.737-4.1 2.2-5.478S83.54 7 85.775 7c2.158 0 3.902.684 5.23 2.052S93 12.294 93 14.673zm-10.462-1.785h6.098c0-.773-.246-1.415-.737-1.924s-1.2-.764-2.095-.764c-.886 0-1.638.264-2.254.792s-.954 1.16-1 1.896zm35.462 9.1h-5.04V14.14c0-2.037-.743-3.056-2.23-3.056-.835 0-1.497.3-1.986.873S108 13.277 108 14.17V22h-5V0h5v9.34h.06c.367-.62.937-1.15 1.7-1.586s1.66-.655 2.658-.655c1.914 0 3.32.577 4.216 1.73S118 11.388 118 13.037v8.96zm18-.398h-4.827v-2.02h-.06c-.367.683-.967 1.26-1.802 1.728s-1.762.703-2.78.703c-1.895 0-3.3-.58-4.186-1.743S121 17.682 121 16.024V7h5.04v7.9c0 2.072.753 3.105 2.26 3.105.835 0 1.492-.303 1.97-.908s.718-1.35.718-2.226V7h5v14.6zm18 .4h-4.695v-7.97c0-2.05-.702-3.076-2.106-3.076-.797 0-1.413.303-1.85.908s-.655 1.347-.655 2.226v7.9H140V7.4h4.524v2.02h.057c.342-.683.897-1.26 1.665-1.728S147.873 7 148.82 7c1.764 0 3.07.58 3.913 1.743S154 11.316 154 12.976V22zm13-11.47h-3.605v5.632c0 .7.144 1.238.43 1.573s.78.504 1.48.504c.596 0 1.1-.08 1.48-.24l.062 3.557c-.842.296-1.818.445-2.927.445-1.952 0-3.35-.454-4.2-1.363s-1.263-2.203-1.263-3.883V10.53H156V6.883h2.434V3h4.96v3.883H167v3.646zm17 4.143l-.03 1.104h-11.13c.082.755.483 1.387 1.202 1.896s1.542.764 2.467.764c1.48 0 2.6-.5 3.4-1.472l3.514 2.037c-1.5 2-3.822 2.997-6.967 2.997-2.405 0-4.414-.663-6.027-1.995S168 16.86 168 14.558c0-2.264.786-4.1 2.358-5.478S173.9 7 176.293 7c2.302 0 4.162.684 5.58 2.052S184 12.294 184 14.673zm-11.16-1.785h6.505c0-.773-.262-1.415-.786-1.924s-1.27-.764-2.235-.764c-.946 0-1.747.264-2.405.792s-1.017 1.16-1.08 1.896zM197 7.117l-.212 4.22c-.384-.098-.808-.146-1.273-.146-1.192 0-2.08.356-2.667 1.07s-.878 1.46-.878 2.24V22H187V7.4h4.788v2.1h.06c.384-.762.94-1.372 1.667-1.83a4.45 4.45 0 0 1 2.424-.68c.485 0 .84.04 1.06.117zm13 1.863l-2.683 2.632c-.935-.85-1.968-1.274-3.1-1.274-.517 0-.955.094-1.312.283s-.537.472-.537.85.2.65.566.82 1.094.368 2.147.594c3.16.682 4.74 2.113 4.74 4.302 0 1.642-.62 2.856-1.863 3.637S205.22 22 203.47 22a11.64 11.64 0 0 1-3.593-.564c-1.163-.377-2.122-.917-2.877-1.616l2.743-2.745c1.014 1.057 2.226 1.585 3.638 1.585.477 0 .9-.1 1.237-.297s.522-.505.522-.92-.214-.726-.64-.934-1.198-.434-2.3-.677c-2.882-.64-4.323-2.012-4.323-4.106 0-1.547.626-2.722 1.878-3.524S202.427 7 204.037 7c2.484 0 4.472.663 5.963 1.98zm7.124 7.892c.584.584.876 1.293.876 2.127a2.89 2.89 0 0 1-.876 2.127c-.584.582-1.282.875-2.094.875a2.98 2.98 0 0 1-2.14-.857c-.595-.57-.9-1.275-.9-2.1a2.91 2.91 0 0 1 .891-2.142c.594-.592 1.307-.9 2.14-.9.812 0 1.507.293 2.094.872z"/></svg>
+            <p class="footer-copy-text">Ресурс видеоуроков программирования для front и back end разработчиков. Бери знания своего профиля у нас, ведь мы самые лучшие блеать. Серьезно.</p>
+          </div>
+        </div>
+        <div class="footer-side footer-side-top">
+          <div class="footer-menu">
+            <div class="footer-menu-side">
+              <div class="footer-menu-title">Категории</div>
+              <a class="footer-menu-item footer-menu-item-semi-blod" href="https://coursehunters.net/categories">Все категории</a>
+                              <a class="footer-menu-item" href="https://coursehunters.net/graphic">Graphic</a>
+                              <a class="footer-menu-item" href="https://coursehunters.net/frontend/html">HTML</a>
+                              <a class="footer-menu-item" href="https://coursehunters.net/frontend/javascript">JavaScript</a>
+                              <a class="footer-menu-item" href="https://coursehunters.net/frontend/vue">Vue</a>
+                              <a class="footer-menu-item" href="https://coursehunters.net/frontend/reactjs">React.js</a>
+                              <a class="footer-menu-item" href="https://coursehunters.net/backend/python">Python</a>
+                              <a class="footer-menu-item" href="https://coursehunters.net/backend/java">Java</a>
+                              <a class="footer-menu-item" href="https://coursehunters.net/backend/nodejs">Node.js</a>
+                              <a class="footer-menu-item" href="https://coursehunters.net/testirovanie-quality-assurance-qa">Тестирование / Quality Assurance (QA)</a>
+                              <a class="footer-menu-item" href="https://coursehunters.net/drugoe">Другое</a>
+                          </div>
+            <div class="footer-menu-side">
+              <div class="footer-menu-title">Источники</div>
+              <a class="footer-menu-item footer-menu-item-semi-blod" href="https://coursehunters.net/source">Все источники</a>
+                              <a class="footer-menu-item" href="https://coursehunters.net/source/greatercommons-com">greatercommons.com</a>
+                              <a class="footer-menu-item" href="https://coursehunters.net/source/itgid-aleksandr-lushchenko">itgid (Александр Лущенко)</a>
+                              <a class="footer-menu-item" href="https://coursehunters.net/source/webformyself">webformyself</a>
+                              <a class="footer-menu-item" href="https://coursehunters.net/source/htmlacademy">htmlacademy</a>
+                              <a class="footer-menu-item" href="https://coursehunters.net/source/videosmile">videosmile</a>
+                              <a class="footer-menu-item" href="https://coursehunters.net/source/udemy">udemy</a>
+                          </div>
+            <div class="footer-menu-side">
+              <div class="footer-menu-title">Профиль</div>
+              <a class="footer-menu-item" href="https://coursehunters.net/pricing">Кабинет</a>
+              <a class="footer-menu-item" href="https://coursehunters.net/bookmarks">Закладки</a>
+              <a class="footer-menu-item" href="https://coursehunters.net/history">История</a>
+              <a class="footer-menu-item mb-30" href="https://coursehunters.net/logout">Выйти</a>
+              <a class="footer-menu-item" href="https://t.me/coursehunters" target="_blank" rel="nofollow noopener">Telegram</a>
+              <a class="footer-menu-item" href="https://coursehunters.net/sponsorship">Реклама</a>
+              <a class="footer-menu-item" href="https://coursehunters.net/contacts">Контакты</a>
+              <a class="footer-menu-item" href="https://coursehunters.net/changelog">Что нового?</a>
+              <a class="footer-menu-item" href="https://coursehunters.net/faq">FAQ</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-side footer-side-top" title="Comming soon">
+          <div class="footer-sd mb-25">
+            <div class="footer-sd-title">Подписывайся</div>
+            <p class="footer-sd-description">Чтобы получать обновления о наших новых курсах и обновлениях, напишите свою почту ниже</p>
+            <fieldset disabled>
+            <form action="/subscribe" class="footer-sd-form" id="subscribe">
+              <label for="subscribeInput"><span class="vh">Подписывайся</span></label>
+              <input type="email" placeholder="Email" class="footer-sd-email" id="subscribeInput" required>
+            </form>
+            <button class="btn donate-btn" type="submit" form="subscribe">Sudscribe</button>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+      <div class="footer-row">
+        <div class="footer-side">
+          <div class="menu">
+            <span class="menu-item">Темы:</span>
+            <button class="mb-20 menu-item-lite theme-btn mr-30 btn" data-title="light">Белая</button>
+            <button class="mb-20 menu-item-dark theme-btn btn-outline" data-title="dark">Темная</button>
+          </div>
+        </div>
+        <div class="footer-side mb-20">
+          <div class="footer-sd">
+            <div class="footer-sd-title">Пожертвовать</div>
+            <p class="footer-sd-description">Мы прилагаем все усилия, чтобы вы могли получить доступ к учебным материалам. Вы можете поддержать нашу работу и сделать наш проект лучше.</p>
+            <a href="https://coursehunters.net/donate" title="Donate" class="btn-outline donate-btn">Donate</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+                  <script src="https://coursehunters.net/scripts/main.js"></script>
+                    <script>
+          // GOOGLE analytics
+              (function (i, s, o, g, r, a, m) {
+              i['GoogleAnalyticsObject'] = r;
+              i[r] = i[r] || function () {
+              (i[r].q = i[r].q || []).push(arguments)
+              }, i[r].l = 1 * new Date();
+              a = s.createElement(o),
+              m = s.getElementsByTagName(o)[0];
+              a.async = 1;
+              a.src = g;
+              m.parentNode.insertBefore(a, m)
+              })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+              ga('create', 'UA-73770290-2', 'auto');
+              ga('send', 'pageview');
+          </script>
+            </body>
+</html>

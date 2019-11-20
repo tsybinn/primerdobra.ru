@@ -1,0 +1,1153 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<!--[if IE]>
+  <xml:namespace ns="urn:schemas-microsoft-com:vml" prefix="v"/>
+<![endif]-->
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+    
+    <meta name="yandex-verification" content="5ce3c2adbabf18a4" />
+    <meta name="yandex-verification" content="9c7763177852b7f9" />
+    <meta name="mailru-verification" content="301e51764b9b6604" />
+    <meta name="google-site-verification" content="y2LRLH9Gm-w95ef-B6Ro5zAzduXbbjZCSioPpfDsusE" /> 
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="alternate" type="application/rss+xml" title="Новости" href="/rss/news" />
+    <link rel="alternate" type="application/rss+xml" title="Группы со скидками" href="/rss/hotgroups" />
+    <meta name='og:description' content=''/>
+
+    
+    
+    
+        
+
+<meta name='og:title' content='Вход в Ваш личный кабинет'/>
+<title>Вход в Ваш личный кабинет</title>
+
+    
+
+
+
+    
+    <link href="/Content/mincss/stylenew.min.css?v=9" rel="stylesheet" type="text/css" />
+    <link href="/Content/mincss/my.min.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/mincss/select2.min.css" rel="stylesheet" type="text/css" />
+
+    <script src="/Scripts/jquery.min.js" type="text/javascript"></script>
+    <script src="/Scripts/all.min.js?m=660559707" type="text/javascript"> </script>
+
+    
+   
+        <script src="/Scripts/Views/external.services.js"></script>
+    
+   
+
+
+
+   
+
+    <script type="text/javascript">
+        (function(a,e,c,f,g,h,b,d){var k={ak:"1059972133",cl:"fAavCKXo2WwQpci3-QM",autoreplace:"+7 (495) 232-32-16"};a[c]=a[c]||function(){(a[c].q=a[c].q||[]).push(arguments)};a[g]||(a[g]=k.ak);b=e.createElement(h);b.async=1;b.src="//www.gstatic.com/wcm/loader.js";d=e.getElementsByTagName(h)[0];d.parentNode.insertBefore(b,d);a[f]=function(b,d,e){a[c](2,b,k,d,null,new Date,e)};a[f]()})(window,document,"_googWcmImpl","_googWcmGet","_googWcmAk","script");
+    </script>
+    
+    <script type="text/javascript"> var ScarabQueue = ScarabQueue || []; (function(id) { if (document.getElementById(id)) return; var js = document.createElement('script'); js.id = id; js.src = '//cdn.scarabresearch.com/js/15913FC5F94B0A35/scarab-v2.js'; var fs = document.getElementsByTagName('script')[0]; fs.parentNode.insertBefore(js, fs); })('scarab-js-api'); </script>          
+</head>
+<body style="background-color: white;">
+   <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-SWMG"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+
+  
+
+     
+    <script>
+        
+        
+    </script>
+    
+
+
+    <div>
+        <div id="fb-root"></div>
+        <div class="all_page"
+            style="">
+            <div class="page">
+                
+
+<div class="header1">
+	<!--noindex-->
+    <div class="registration">
+        <div class="registration_ie">
+            
+
+<p>
+
+   <span class="enter">
+
+        <a href="/account/logon">Войти</a>
+    </span>
+    <span class="reg">
+        <a href="/SimpleReg/Registration?returnUrl=%2Fprofile&amp;source_tc=%D0%93%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F">Регистрация</a>
+    </span>
+
+</p>
+        </div>
+    </div>
+	<!--/noindex-->
+    <div class="title" style="margin-left:0;">
+        
+
+        
+      <div class="menu_top">
+        <ul>
+            <li> <a href="/group/search" target="_blank">Поиск расписания</a></li>
+
+            <li><a href="/center/about-center/payments" target="_blank">Записаться на курсы</a> </li>
+
+            <li><a href="mailto:info@specialist.ru" title="отправить нам письмо" style="text-decoration: underline;"> <img src="//cdn.specialist.ru/Content/Image/Main/blue/conv.png" alt=""   style="width:22px;margin: 0px 10px;" >info@specialist.ru</a></li>
+
+          
+        </ul>
+      </div>
+    </div>
+</div>
+<!--noindex-->
+<div class="header_basket">
+ <div class="basket_top">
+  <div class="basket_top_l">
+        </div>
+        <div class="basket_top_r png">
+        </div>
+        <div class="basket_top_c png">
+        </div>
+		</div>
+      
+       
+
+    <div class="basket_center">
+
+ <a href="/center/about-center/payments" class="discount_color" id="link2">Записаться на курсы</a>
+ <p>
+    <span>Корзина:</span>
+      <a href="/cart/details" class="link" style="white-space:nowrap;">корзина</a>
+      
+ </p>
+
+       <img src="//cdn1.specialist.ru/Content/Image/Main/ico_timetable.gif" alt="Поиск расписания" width="14" height="12" title="Поиск расписания" class="timetable" />
+            <a href="/group/search" style="margin-left:18px">Поиск расписания</a>
+    </div>
+
+
+    <div class="basket_bottom">
+        <div class="basket_bottom_l">
+        </div>
+        <div class="basket_bottom_r png">
+        </div>
+        <div class="basket_bottom_c png">
+        </div>
+    </div>
+</div>
+<!--/noindex-->
+<div class="header_lang"     >
+	<a class="active" title="Английская версия сайта" href="http://en.specialist.ru">
+	     <img src="//cdn.specialist.ru/Content/Image/Main/en.png" alt="" width="18" height="13" />
+        <span style="color:#3c89c9">Рус</span>|<span style="color:#a1a1a3">Eng</span>
+	</a>
+</div>
+
+<style>.header2 {
+font-family: Verdana, sans-serif;
+height: 95px;
+margin: 0;
+overflow: hidden;
+} 
+.header2 .logo {
+position:absolute;
+top: 44px;
+left:15px;   
+margin-left:0px;
+}
+</style>
+
+<div class="header2">
+
+	<a class="logo" href="/" title="На главную">
+		<img src="//cdn.specialist.ru/Content/Image/Main/logo.svg" alt="Центр компьютерного обучения «Специалист»" height="75" width="300"/>
+	</a>
+	<div class="info">
+		<div class="info_ie"  style="padding-top: 15px;">
+			<div style="color:#537088; font-size:15px;">Частным лицам:<a href="tel:+74952323216" style="text-decoration:none;"><span id="ya-phone-1" class="phoneNumRegionClass" style="font-size: 18px; color:#3c89c9;"> +7 (495) 232-32-16</span></a><br>Корп. клиентам:<a href="tel:+74957804844" style="text-decoration:none;"><span id="ya-phone-3" style="font-size: 18px;color:#3c89c9;"> +7 (495) 780-48-44</span></a></div>
+
+			<p class="e-mail">
+			
+
+
+			<!--<br/>
+			<a href="/25-let" style="display:block; cursor: pointer; font-size:16px;  text-decoration: none;  color:#ffffff; background-color:#ff516a; text-align:center; padding:3px; margin-top:5px; width:154px;" title="Перейти на страницу">История Центра</a>-->
+
+
+			</p>
+
+		</div>
+	</div>
+</div>
+
+
+<div class="header3" id="fixed-menu">
+    <div class="search">
+        <div class="search_corner">
+		  <form action="/page/search" method="post">
+		   <span class="image"><b>Поиск</b></span> 
+               <input id="search" class="text" type="text" name="Text" value="" />
+           </form>
+           
+        </div>
+    </div>
+
+    <div class="menu_main">
+        <style>
+#topmenu {
+display: table;
+width: 100%;
+line-height: 36px;
+}
+#topmenu > li {
+float: none;
+width: auto;
+display: table-cell;
+text-align: center;
+list-style-type: none;
+vertical-align: bottom;
+border-left: 1px solid #fff;
+}
+#topmenu > li > a {
+overflow: hidden;
+color: #fff;
+text-decoration: none;
+height: 36px;
+display: block;
+}
+.menu_small li {
+text-align: left;
+}
+</style>
+
+
+
+
+
+
+<ul id="topmenu">
+	<li>
+		<a style="cursor: default" href="#">Курсы</a>
+		<ul class="menu_small">
+			<li>
+				<a href="/courses">Курсы</a>
+			</li>
+
+			<li>
+				<a href="/center/about-center/testingcenter">Тестирование</a>
+			</li>
+		</ul>
+	</li>
+	<li>
+		<a style="cursor: default" href="#">Скидки и акции</a>
+		<ul class="menu_small">
+		    <li><a href="/section/students">Студентам</a></li>
+			<li><a href="/special-offers/nalogdiscount">Налоговые льготы</a></li>
+			<li><a href="/special-offers/groups-discounts">Группы со скидками</a></li>
+			<li><a href="/special-offers/activities">Акции</a></li>
+			<li><a href="/special-offers/special-actions">Спецпредложения</a></li>
+			<li><a href="/special-offers/activities/diplomplus">«Диплом Плюс»</a></li>
+			<li><a href="/special-offers/real-specialist">Настоящий Специалист</a></li>
+			
+			<!--<li><a href="/special-offers/discount">Скидки</a></li>
+			<li><a href="/center/competitions">Конкурсы</a></li>
+			<li><a href="/special-offers/reserve">Резерв</a></li>-->
+		</ul>
+	</li>
+	<li><a style="cursor: default" href="#">Онлайн-обучение</a>
+		<ul class="menu_small">
+			<li><a href="/center/educationtypes/webinar">Онлайн-обучение InClass <sup>®</sup></a></li>
+			<li><a href="/center/educationtypes/individual">Индивидуальное обучение</a></li>
+		</ul>
+	</li>
+	<!-- <li><a href="/learning-formats">Виды обучения</a>
+		<ul class="menu_small">
+			<li>
+				<a href="/special-offers/activities/unlimited-education">Безлимитное обучение онлайн</a>
+			</li>
+			<li>
+				<a href="/center/educationtypes/open-classes">Открытое обучение</a>
+			</li>
+			<li>
+				<a href="/center/educationtypes/intramural-extramural-classes">Очно-заочное обучение</a>
+			</li>
+			<li>
+				<a href="/center/educationtypes/webinar">Онлайн-обучение</a>
+			</li>
+		</ul>
+	</li>-->
+	<li>
+		<a style="cursor: default" href="#">Дипломные программы</a>
+		<ul class="menu_small">
+			<li>
+				<a href="/center/educationtypes/diplomn_progr">Программы профессиональной переподготовки</a>
+			</li>
+			<li>
+				<a href="/center/educationtypes/refresher_course">Программы повышения квалификации</a>
+			</li>
+			<li><a href="/special-offers/activities/diplomplus">Программа «Диплом Плюс»</a></li>
+		</ul>
+	</li>
+	<li>
+		<a style="cursor: default" href="#">Карьера</a>
+		<ul class="menu_small">
+			<li><a href="/career-guidance">Профориентация</a></li>
+			<li><a href="/courses#professii">Популярные профессии</a></li>
+			<li><a href="/job">Трудоустройство</a></li>
+		</ul>
+	</li>
+	<li>
+		<a style="cursor: default" href="#">Компаниям</a>
+		<ul class="menu_small">
+			<li><a href="/center/corpeducation/corporate">Корпоративным заказчикам</a></li>
+			<li><a href="/center/corpeducation/corporate/ms-partners">Обучение для партнеров Microsoft</a></li>
+			<li><a href="/for-educational-institutions">Образовательным учреждениям</a></li>
+		</ul>
+	</li>
+	<li>
+		<a href="/center">О Центре</a>
+	</li>
+	<li>
+		<a href="/contacts">Контакты</a>
+	</li>
+</ul>
+
+
+<!--<div class="techwork" style="background: #fc5237;padding: 0px 10px;color: white;font-size: 12px;box-shadow: 0 2px #c10a0a; line-height:1.2;">8 августа в офисе учебного центра «Специалист» будут проходить технические работы. Возможны задержки на телефонной линии. Дополнительные номера для связи: <span style="font-weight:bold; font-size:115%; display: inline; margin: 0; padding: 0;">+7 (495) 780-47-48</span>, <span style="font-weight:bold; font-size:115%; display: inline; margin: 0; padding: 0;">+7 (495) 780-47-54</span>. В обычном режиме будет работать наш чат на сайте. Приносим извинения за доставленные неудобства.</div>
+
+<script>
+$( document ).ready(function() {
+var date = new Date();
+var currentHours = date.getHours();
+currentHours = ("0" + currentHours).slice(-2);
+if (currentHours > 23 || currentHours < 10){        
+  $('.techwork').hide();
+} 
+else 
+{
+  $('.techwork').show();
+}
+});
+</script>
+-->
+    </div>
+</div>
+    <script type="text/javascript">        
+        $(function () {
+            watermark('search', 'Найти курс');
+            $("#header-order-call").click(function(e) {
+                e.preventDefault();
+                $("#consultant-slide-panel").stop().animate({ left: 0 });
+            });
+
+        });
+    </script>
+
+                <div class="center">
+                    
+    <style>
+        .left2 {
+            margin: 0 !important;
+        }
+    </style>
+    <div class="right2">
+
+        
+
+        
+   
+    
+	<div class="block_chamfered_t  block_gray-bg">
+					<div class="block_chamfered_b">
+					<div class="block_chamfered_r">
+					<div class="block_chamfered_l"><div class="block_chamfered_tl png"></div>
+				<div class="block_chamfered_tr png"></div>
+				<div class="block_chamfered_br png"></div>
+				<div class="block_chamfered_bl png"></div>
+        
+
+<div id="news"> </div>
+
+<script type="text/javascript">
+	$(function () {
+		loadUrlTo("#news",
+            '/page/newsformain');
+	});
+</script>
+
+   </div></div></div></div>
+
+    
+
+        <!--noindex-->
+
+        <!--/noindex-->
+
+        
+        
+        
+        
+        
+
+
+
+        
+
+        
+        
+
+        
+        <script>$('.right2').remove();</script>
+    </div>
+    <div class="left2">
+        <div class="content">
+            
+            <p class="breadcrumbs">
+                <a href="/">Главная</a>
+            </p>
+            
+            
+            
+    <h1>Вход в Ваш личный кабинет</h1>
+    
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/redmond/jquery-ui.css"
+        type="text/css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/i18n/jquery.ui.datepicker-ru.js" type="text/javascript"></script>
+
+
+    <b>
+  <a href="/instruction_lk">Инструкция по работе с Личным кабинетом сайта</a>
+</b>
+
+    
+
+    
+    <p>
+        Если Вы первый раз на нашем сайте,  <a href="/SimpleReg/Registration?returnUrl=%2Fgroup%2Fvideos%2F269690&amp;source_tc=%D0%93%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F">зарегистрируйтесь</a>. 
+    </p>
+    <p>Если Вы уже зарегистрированы на нашем сайте, введите ваш e-mail и пароль.</p>
+    <form action="/account/logon" id="form-logon" method="post">
+        
+
+
+    <div>
+        <input id="ReturnUrl" name="ReturnUrl" type="hidden" value="/group/videos/269690" />    
+    </div> 
+
+
+        <table class='table_form'>
+
+<tr>
+    <td class="name">
+    
+        <label for="Email">
+            E-mail
+      
+        </label>
+    
+    </td>
+    <td class="field">
+        
+    <input class="text" id="Email" name="Email" type="text" value="" />    
+
+    
+    </td>
+</tr>
+
+            
+
+<tr>
+    <td class="name">
+    
+        <label for="Password">
+            Пароль
+      
+        </label>
+    
+    </td>
+    <td class="field">
+        
+    <input class="text" id="Password" name="Password" type="password" />    
+
+    
+    </td>
+</tr>
+
+            
+
+<tr>
+    <td class="name">
+    
+        <label for="Remeber">
+            Запомнить
+      
+        </label>
+    
+    </td>
+    <td class="field">
+        
+    <input checked="checked" id="Remeber" name="Remeber" type="checkbox" value="true" /><input name="Remeber" type="hidden" value="false" />
+
+    
+    </td>
+</tr>
+
+        </table><a href="/profile/restorepassword" class="open-in-dialog">Напомнить пароль</a>
+	<p class='submit_p'><input type="image" src="//cdn1.specialist.ru/Content/Image/Main/Button/btn_ok.gif" style="height:24px;" /></p>
+    </form>
+
+
+<script>
+    $(function () {
+        var emailInput = $("#form-logon input[name='Email']");
+        function checkEmail() {
+            var email = emailInput.val();
+            if (email && email.toLowerCase().indexOf("specialist.ru") >= 0) {
+                $("input[name='Remeber']").prop('checked', false);
+            }
+        }
+        emailInput.on("input", checkEmail);
+
+    });
+</script>
+
+<button id="facebook-register">Использовать аккаунт Facebook</button>
+    <form action="/Account/ExternalLogin" method="post" style="float:left;">
+        <button type="submit" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" id="vkontakte" name="provider" value="vkontakte" title="Использовать аккаунт ВКонтакте">
+           <span class="ui-button-text">Использовать аккаунт ВКонтакте</span>                                 
+        </button>
+    </form>
+    <div class="attention">
+        <strong>Внимание!</strong>
+        <p>
+            Если Вы являетесь выпускником Центра, то для получения доступа к сервисам выпускника Вам также необходимо  <a href="/profile/register">зарегистрироваться</a> на сайте и в вашем профиле указать логин и пароль из памятки выпускника.
+        </p>
+    </div>
+
+    <script>
+        $(function () {
+            $("#facebook-register").button();
+            initFbConnect();
+            function processResponse(response) {
+                if (response.status === 'connected') {
+                    document.location.href = updateURLParameter("/Profile/FacebookLogin?returnUrl=%2Fgroup%2Fvideos%2F269690", "token", response.authResponse.accessToken);
+                }
+            }
+
+            $("#facebook-register").click(function (e) {
+                e.preventDefault();
+                FB.login(processResponse, { scope: 'public_profile,email' });
+            });
+        });
+
+
+    </script>
+
+
+
+
+
+
+        
+
+            
+            <p class="breadcrumbs">
+                <a href="/">Главная</a>
+            </p>
+            
+        </div>
+    </div>
+
+
+    <div id="open-in-dialog" style="height: 100%; overflow: auto; display: none"></div>
+
+    <div id="cart-dialog"
+        style="width: 500px; height: 70px; display: none">
+        <p>
+            Заказ будет добавлен в Корзину.<br />
+            Вы можете продолжить выбор курсов или перейти в Корзину!
+        </p>
+        <div id="cart-dialog-buttons">
+            <span>
+                <input id="addcartstay" class="button" type="button" value="Продолжить" />
+            </span><span>
+                <input id="addcartgo" class="button" type="button" value="Перейти в корзину" />
+            </span>
+        </div>
+        <div id="cart-dialog-indicator" style="display: none;"><img alt="indicator.gif" height="16" src="//cdn.specialist.ru/Content/Image/Common/indicator.gif" width="16" /></div>
+    </div>
+
+                </div>
+            </div>
+            
+        </div>
+        <style>
+	.border__shadow {
+		box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+		border-radius: 6px;
+	}
+	.border__shadow:hover {
+		box-shadow: 0px 1px 6px rgba(0, 85, 134, 0.4);
+	}
+	.vendors-carousel {
+		width: 100%;
+		margin-bottom:10px;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	.vendors-carousel-item_anchor,.vendors-carousel-item_anchor:visited {
+		display: flex;
+		width: 100px;
+		height: 35px;
+		margin-bottom: 10px;
+		justify-content: center;
+		padding: 15px;
+		align-items: center;
+	}
+	.vendors-carousel-item_image {
+		max-width: 110px;
+	}
+	footer {
+		max-width:1100px;
+		margin: 0 auto;
+		margin-top: 10px;
+		font-family: 'Open Sans';
+		font-size: 12px;
+		line-height: 15px;
+		color: #ffffff;
+	}
+	.footer_wrapper {
+		padding: 20px 30px 30px;
+		box-sizing: border-box;
+		background: #005586;
+	}
+	.footer_row {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.footer_column {
+		padding: 0 10px;
+		box-sizing: border-box;
+		width: 100%;
+	}
+	.footer_column:last-child {
+		padding-right: 0;
+	}
+	.footer_column.footer_column_last-child {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	.footer_column_item {
+		padding-bottom:30px;
+	}
+	.footer_column_item:last-child {
+		padding-bottom:0px;
+	}
+	.footer_column_item_title {
+		font-weight: bold;
+		font-size: 14px;
+		line-height: 19px;
+		padding-left: 30px;
+		padding-bottom:12px;
+	}
+	.footer_column_item_title.with-icon {
+		padding-left: 0px;
+	}
+	.footer_column_item_content {
+		padding-left: 30px;
+	}
+	.title_icon {
+		padding-right: 10px;
+	}
+	.footer_complex {
+		margin-bottom: 20px;
+	}
+	.footer_complex:last-child {
+		margin-bottom: 0px;
+	}
+	.footer_complex_name_link, .footer_complex_name_link:visited {
+		color: #ffffff;
+		text-decoration: none;
+	}
+	.footer_complex_name_link:hover {
+		text-decoration: underline;
+		color: #ffffff;
+	}
+	.footer_complex_metro-circle {
+		display: inline-block;
+		width:8px;
+		height:8px;
+		margin: 0 5px;
+		background-color: #0057ca;
+		border-radius: 25px;
+		line-height: 7px;
+	}
+	.footer_complex_metro-circle__yellow {
+		display: inline-block;
+		width:8px;
+		height:8px;
+		margin: 0 5px;
+		background-color: #cac200;
+		border-radius: 25px;
+		line-height: 7px;
+	}
+	.footer_complex_metro-circle__green {
+		display: inline-block;
+		width:8px;
+		height:8px;
+		margin: 0 5px;
+		background-color: #159300;
+		border-radius: 25px;
+		line-height: 7px;
+	}
+	.footer_complex_metro-circle__violet {
+		display: inline-block;
+		width:8px;
+		height:8px;
+		margin: 0 5px;
+		background-color: #890095;
+		border-radius: 25px;
+		line-height: 7px;
+	}
+	.footer_complex_adress {
+		margin-left: 22px;
+	}
+	.footer_column_item_content_link-block {
+		margin-bottom: 15px;
+	}
+	.footer_column_item_content_link-block-item, .footer_column_item_content_link-block-item:visited {
+		text-decoration: none;
+		color: #ffffff;
+	}
+	.footer_column_item_content_link-block-item:hover {
+		text-decoration: underline;
+		color: #ffffff;
+	}
+	.payments-types_carousel {
+		align-self: flex-end;
+	}
+	.footer-claimer {
+		margin: 10px 0;
+		font-size: 12px;
+		color: #373737;
+		text-align: center;
+	}
+</style>
+<footer>
+	<div class="vendors-carousel">
+		<a class="vendors-carousel-item_anchor border__shadow" href="/vendor/microsoft"><img class="vendors-carousel-item_image" src="https://cdn.specialist.ru/content/image/simplepage/footer/microsoft_partner.png" alt="Microsoft Partners"></a>
+		<a class="vendors-carousel-item_anchor border__shadow" href="/vendor/kaspersky" valign="middle"><img class="vendors-carousel-item_image" src="https://cdn.specialist.ru/content/image/simplepage/footer/kaspersky_atc.png" alt="Kaspersky ATC" valign="middle"></a>
+		<a class="vendors-carousel-item_anchor border__shadow" href="/vendor/pmi"><img class="vendors-carousel-item_image" src="https://cdn.specialist.ru/content/image/simplepage/footer/pmi.png" alt="PMI Global Registered Educational Provider"></a>
+		<a class="vendors-carousel-item_anchor border__shadow" href="/vendor/peoplecert"><img class="vendors-carousel-item_image" src="https://cdn.specialist.ru/content/image/simplepage/footer/itil.png" alt="ITIL ATO"></a>
+		<a class="vendors-carousel-item_anchor border__shadow" href="/vendor/adobe"><img class="vendors-carousel-item_image" src="https://cdn.specialist.ru/content/image/simplepage/footer/adobe_atc.png" alt="Adobe ATC"></a>
+		<a class="vendors-carousel-item_anchor border__shadow" href="/vendor/cisco"><img class="vendors-carousel-item_image" src="https://cdn.specialist.ru/content/image/simplepage/footer/cisco_partner.png" alt="Cisco Partner"></a>
+		<a class="vendors-carousel-item_anchor border__shadow" href="/vendor/1c"><img class="vendors-carousel-item_image" src="https://cdn.specialist.ru/content/image/simplepage/footer/1s_atc.png" alt="1С ЦСО"></a>
+		<a class="vendors-carousel-item_anchor border__shadow" href="/vendor/autodesk"><img class="vendors-carousel-item_image" src="https://cdn.specialist.ru/content/image/simplepage/footer/autodesk_atc.png" alt="Autodesk ATC"></a>
+	</div>
+	<div class="footer_wrapper">
+		<div class="footer_row">
+			<div class="footer_column">
+				<div class="footer_column_item">
+					<div class="footer_column_item_title with-icon">
+						<img valign="top" class="title_icon" src="https://cdn.specialist.ru/content/image/usefulimages/adress-icon.png" alt="Флажок адреса" /> <a class="footer_complex_name_link" href="/locations/city/moscow">Адрес главного офиса</a>:
+					</div>
+					<div class="footer_column_item_content">
+						г. Москва, Госпитальный переулок, д. 4/6, 2-ой этаж
+					</div>
+				</div>
+				<div class="footer_column_item">
+					<div class="footer_column_item_title">
+						Телефон:
+					</div>
+					<div class="footer_column_item_content">
+						+7 (495) 232-32-16
+					</div>
+				</div>
+				<div class="footer_column_item">
+					<div class="footer_column_item_title">
+						Whatsapp:
+					</div>
+					<div class="footer_column_item_content">
+						+7 (985) 842-11-89
+					</div>
+				</div>
+				<div class="footer_column_item">
+					<div class="footer_column_item_title">
+						E-mail:
+					</div>
+					<div class="footer_column_item_content">
+						info@specialist.ru
+					</div>
+				</div>
+			</div>
+			<div class="footer_column">
+				<div class="footer_column_item">
+					<div class="footer_column_item_title">
+						Адреса учебных центров
+					</div>
+					<div class="footer_column_item_content">
+						<div class="footer_complex">
+							<div class="footer_complex_title">
+								<div class="footer_complex_name">
+									<div class="footer_complex_metro-circle__green">
+										 
+									</div>
+									<a class="footer_complex_name_link" href="/locations/complex/belorussko-savelovskii">Белорусско-Савеловский</a>
+								</div>
+							</div>
+							<div class="footer_complex_adress">
+								3-я ул. Ямского Поля, д. 32, 1-й подъезд, 5-й этаж
+							</div>
+						</div>
+						<div class="footer_complex">
+							<div class="footer_complex_title">
+								<div class="footer_complex_name">
+									<div class="footer_complex_metro-circle__yellow">
+										 
+									</div>
+									<a class="footer_complex_name_link" href="/locations/complex/radio">Радио</a>
+								</div>
+							</div>
+							<div class="footer_complex_adress">
+								ул. Радио, д.24, корпус 1, 2-ой подъезд, 2-ой этаж
+							</div>
+						</div>
+						<div class="footer_complex">
+							<div class="footer_complex_title">
+								<div class="footer_complex_name">
+									<div class="footer_complex_metro-circle__violet">
+										 
+									</div>
+									<a class="footer_complex_name_link" href="/locations/complex/taganskii">Таганский</a>
+								</div>
+							</div>
+							<div class="footer_complex_adress">
+								ул. Воронцовская, д. 35Б, корп.2, 5-ый этаж
+							</div>
+						</div>
+						<div class="footer_complex">
+							<div class="footer_complex_title">
+								<div class="footer_complex_name">
+									<div class="footer_complex_metro-circle">
+									 
+								</div>
+								<a class="footer_complex_name_link" href="/locations/complex/baumanskiy">Бауманский</a>
+								</div>
+							</div>
+							<div class="footer_complex_adress">
+								ул. Бауманская, д. 6, стр. 2, бизнес-центр «Виктория Плаза», 4-й этаж
+							</div>
+						</div>
+						<div class="footer_complex">
+							<div class="footer_complex_title">
+								<div class="footer_complex_name">
+									<div class="footer_complex_metro-circle">
+									 
+								</div>
+								<a class="footer_complex_name_link" href="/locations/complex/stilobat">Стилобат</a>
+								</div>
+							</div>
+							<div class="footer_complex_adress">
+								Госпитальный переулок, д. 4/6, 2-ой этаж
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer_column">
+				<div class="footer_column_item">
+					<div class="footer_column_item_title">
+						Специальные предложения
+					</div>
+					<div class="footer_column_item_content">
+						<div class="footer_column_item_content_link-block">
+							<a class="footer_column_item_content_link-block-item" href="/special-offers">Слушателям</a>
+						</div>
+						<div class="footer_column_item_content_link-block">
+							<a class="footer_column_item_content_link-block-item" href="/center/corpeducation/corporate">Корпоративным клиентам</a>
+						</div>
+						<div class="footer_column_item_content_link-block">
+							<a class="footer_column_item_content_link-block-item" href="/course/seminars">Мастер-классы</a>
+						</div>
+						<div class="footer_column_item_content_link-block">
+							<a class="footer_column_item_content_link-block-item" href="/online-testing">Online тестирование и сертификация</a>
+						</div>
+					</div>
+				</div>
+				<div class="footer_column_item">
+					<div class="footer_column_item_title">
+						Выпускникам
+					</div>
+					<div class="footer_column_item_content">
+						<div class="footer_column_item_content_link-block">
+							<a class="footer_column_item_content_link-block-item" href="/instruction_lk">Инструкция по работе с личным кабинетом</a>
+						</div>
+						<div class="footer_column_item_content_link-block">
+							<a class="footer_column_item_content_link-block-item" href="/job">Трудоустройство</a>
+						</div>
+						<div class="footer_column_item_content_link-block">
+							<a class="footer_column_item_content_link-block-item" href="/courses/free-consultations">Бесплатные консультации для выпускников</a>
+						</div>
+						<div class="footer_column_item_content_link-block">
+							<a class="footer_column_item_content_link-block-item" href="/message/section/6/1">Конференция «Клуб выпускников»</a>
+						</div>
+						<div class="footer_column_item_content_link-block">
+							<a class="footer_column_item_content_link-block-item" href="https://system.specialist.ru/anketa/">Заполнить анкету</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer_column footer_column_last-child">
+				<div class="footer_column_item">
+					<div class="footer_column_item_title">
+						Наш центр
+					</div>
+					<div class="footer_column_item_content">
+						<div class="footer_column_item_content_link-block">
+							<a class="footer_column_item_content_link-block-item" href="/center">Информация о центре</a>
+						</div>
+						<div class="footer_column_item_content_link-block">
+							<a class="footer_column_item_content_link-block-item" href="/center/about-center/main-benefits">Преимущества обучения в центре</a>
+						</div>
+						<div class="footer_column_item_content_link-block">
+							<a class="footer_column_item_content_link-block-item" href="/center/comand/trainers">Наши преподаватели</a>
+						</div>
+						<div class="footer_column_item_content_link-block">
+							<a class="footer_column_item_content_link-block-item" href="/client/privateperson/responses/1">Отзывы клиентов Центра</a>
+						</div>
+						<div class="footer_column_item_content_link-block">
+							<a class="footer_column_item_content_link-block-item" href="/documents/archive">Архив</a>
+						</div>
+						<div class="footer_column_item_content_link-block">
+							<a class="footer_column_item_content_link-block-item" href="/faq">Справочный центр (FAQ)</a>
+						</div>
+					</div>
+				</div>
+				<div class="footer_column_item">
+					<div class="footer_column_item_content">
+						<div class="footer_column_item_content_link-block">
+							<img valign="top" class="title_icon" src="https://cdn.specialist.ru/content/image/usefulimages/book-icon.png" alt="Иконка книги" /> <a class="footer_column_item_content_link-block-item" href="/svedenia-ob-organizacii"><strong>Сведения об образовательных оганизациях</strong></a>
+						</div>
+						<div class="footer_column_item_content_link-block">
+							<img valign="top" class="title_icon" src="https://cdn.specialist.ru/content/image/usefulimages/footer-search-icon.png" alt="Иконка поиска" /> <a class="footer_column_item_content_link-block-item" href="/page/search"><strong>Не нашли нужный курс?<br/>Воспользуйтесь Поиском!</strong></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer_row">
+			<div class="center-logo">
+				<a href="https://www.specialist.ru/"><img src="https://cdn.specialist.ru/content/image/usefulimages/logo-footer.png" alt="Лого" /></a>
+			</div>
+			<div class="payments-types_carousel">
+				<a class="payments-types_carousel_item" href="https://www.sberbank.ru/ru/person/bank_cards/debit" target="_blank"><img src="https://cdn.specialist.ru/content/image/usefulimages/sberbank.jpg" class="payments-types_carousel_item_img" alt="Оплата Сбербанк" /></a>
+				<a class="payments-types_carousel_item" href="https://www.mastercard.ru/ru-ru.html" target="_blank"><img src="https://cdn.specialist.ru/content/image/usefulimages/mastercard.jpg" class="payments-types_carousel_item_img" alt="Оплата Мастеркрад" /></a>
+				<a class="payments-types_carousel_item" href="https://www.visa.com.ru" target="_blank"><img src="https://cdn.specialist.ru/content/image/usefulimages/visa.jpg" class="payments-types_carousel_item_img" alt="Оплата Виза" /></a>
+				<a class="payments-types_carousel_item" href="https://www.visa.com.ru/pay-with-visa/find-a-card/visa-electron.html" target="_blank"><img src="https://cdn.specialist.ru/content/image/usefulimages/visa-electron.jpg" class="payments-types_carousel_item_img" alt="Оплата Виза Электрон" /></a>
+				<a class="payments-types_carousel_item" href="https://mironline.ru" target="_blank"><img src="https://cdn.specialist.ru/content/image/usefulimages/mir.jpg" class="payments-types_carousel_item_img" alt="Оплата Мир" /></a>
+				<a class="payments-types_carousel_item" href="https://www.webmoney.ru/rus/index.shtml" target="_blank"><img src="https://cdn.specialist.ru/content/image/usefulimages/webmoney.jpg" class="payments-types_carousel_item_img" alt="Оплата Вебмани" /></a>
+			</div>
+		</div>
+	</div>
+	<div class="footer-claimer"><strong>© 1991–2019 Центр компьютерного обучения «Специалист» при МГТУ им.Н.Э.Баумана</strong></div>
+</footer>
+    </div>
+    
+    
+
+		
+	
+
+
+    
+    <!-- Facebook Pixel Code -->
+   
+    <!-- End Facebook Pixel Code -->
+    <!--vk Pixel code-->
+  
+    <!--\\vk Pixel code -->
+    <!--Comagic Pixel code-->
+    <script type="text/javascript">var __cs = __cs || [];__cs.push(["setCsAccount", "7UvyNuZHKRP6euYflWDUko5c5I5FVYp2"]);</script>
+    <script type="text/javascript" async src="//app.comagic.ru/static/cs.min.js"></script>
+    <!--\\Comagic Pixel code-->
+
+    <script type="application/ld+json">
+    {
+    "@@context" : "http://schema.org",
+    "@@type" : "Organization",
+    "name" : "Specialist",
+    "url" : "https://www.specialist.ru/",
+    "logo" : "https://cdn.specialist.ru/Content/Image/Main/logo.gif",
+    "sameAs" : [
+    "https://vk.com/specialist_ru",
+    "https://www.facebook.com/specialist.ru",
+    "https://www.instagram.com/specialist_baumanka/",
+    "https://twitter.com/Specialist_RU",
+    "https://www.youtube.com/user/SpecialistTV"
+    ]
+    }
+</script>
+    <style><!--
+#cookieConsent {
+    background: #f5f5f5;
+    border-radius: 5px;
+    max-width: 363px;
+    padding: 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 5px;
+    left: 5px;
+    z-index: 999999;
+}
+#cookieConsent__title {
+    line-height: 16px;
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 12px;
+    font-weight: 700;
+}
+#cookieConsent__text {
+    line-height: 16px;
+    font-size: 12px;
+    color: rgba(0,0,0,.8);
+    margin-bottom: 16px;
+}
+.cookieConsent__link {
+    color: #008fb4;
+    text-decoration: none;
+}
+#closeCookieConsent{
+display: block;
+    width: 30px;
+    height: 29px;
+    background-image: url(https://cdn.specialist.ru/content/image/simplepage/blocks/cookie/close.svg);
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 12px;
+}
+#cookieConsent__ok {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Circe,sans-serif;
+    margin: 0;
+    overflow: hidden;
+    outline: none;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+    text-decoration: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    font-weight: 700;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+	background: #008fb4;
+    color: #fff;
+	font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    min-width: 140px;
+    height: 40px;
+	padding: 11px 28px;
+	width: 100%;
+	background: transparent;
+    border: 1px solid #008fb4;
+    color: #008fb4;
+}
+#cookieConsent__ok:hover {
+    background-color: #008fb4;
+    color: white;
+}
+jdiv#jvlabelWrap{
+z-index: 99998;
+}
+jdiv.wrap_3s._show_3w{
+z-index: 99998;
+}
+--></style>
+<div id="cookieConsent">
+<div id="closeCookieConsent"></div>
+<div id="cookieConsent__title">Наш сайт использует файлы cookie</div>
+<div id="cookieConsent__text">Наша задача – сделать Ваше обучение успешным. Specialist.ru использует файлы cookie, чтобы гарантировать максимальное удобство пользователям, предоставляя им персонализированную информацию и запоминая их предпочтения. Продолжая пользоваться сайтом, Вы подтверждаете своё согласие на использование файлов cookie. <a class="cookieConsent__link" href="/privacy-policy#cookie" target="_blank">Подробнее...</a></div>
+<button id="cookieConsent__ok" type="submit">Согласен(-на)</button>
+</div>
+<script type="text/javascript"><!--
+$(document).ready(function(){
+		$('.hover').hover(function(){
+			$(this).addClass('flip');
+		},function(){
+			$(this).removeClass('flip');
+		});
+                setTimeout(function () {
+                   $("#cookieConsent,").fadeIn(200);
+                }, 500);
+                $("#closeCookieConsent,#cookieConsent__ok").click(function() {
+                   $("#cookieConsent").fadeOut(200);
+                   $.cookie('CookiePolice', '1', { expires: 3650 });
+                });
+	     });
+// --></script>
+</div>
+</div>
+
+
+<script>
+
+    
+
+    // Passing on visitor's cart contents to feed cart abandonment campaigns
+    ScarabQueue.push(['cart', [
+        
+
+    ]]);
+
+    // Firing the ScarabQueue. Should be the last call on the page, called only once.
+    ScarabQueue.push(['go'])
+
+</script>
+
+
+
+
+
+
+
+</body>
+</html>
+
+

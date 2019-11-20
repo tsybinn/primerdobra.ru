@@ -1,0 +1,7 @@
+[$ REPONAME] REPOF
+name = \ $ OS \ $ releasever - \ $ basearch REPOF
+failovermethod = priority REPOF
+baseurl = http: //repos.1c-bitrix.ru//el// \ $ basearch REPOF
+enabled = 1 REPOF
+gpgcheck = 1 REPOF
+gpgkey = $ GPGK REPOF

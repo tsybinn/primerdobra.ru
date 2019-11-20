@@ -1,0 +1,14 @@
+
+User-agent: Yandex
+Allow: /
+Allow: /catalog/auto
+Disallow: /catalog
+# Сортированный robots.txt:
+User-agent: Yandex
+Allow: /
+Disallow: /catalog
+Allow: /catalog/auto
+
+Sitemap: http://www.primerdobra.ru/sitemap.xml
+# запрещает скачивать страницы, начинающиеся с '/catalog',
+# но разрешает скачивать страницы, начинающиеся с '/catalog/auto'.
