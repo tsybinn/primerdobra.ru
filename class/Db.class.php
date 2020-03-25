@@ -3,10 +3,10 @@ class Db
 {
     function __construct()
     {
-        $host = "81.90.180.128";
+        $host = "************";
         $dbname = "test";
-        $user = "taxiru";
-        $password = "6ou7O1izK0";
+        $user = "*******";
+        $password = "********";
         try {
             $this->db = new PDO("mysql:host=$host;dbname=$dbname", $user, $password);
             $this->db->exec("set names utf8");
